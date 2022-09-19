@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: BB-8</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: BB-8</h1></div>
+</style><title>Guild Reports: Alliance Character Data: BB-8</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: BB-8</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_bb8.png" />Alliance Character Data: BB-8</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/bb-8/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/bb-8/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/bb-8/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/bb-8/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2130 units from the
@@ -234,14 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 135 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BB801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Roll with the Punches</td><td>When BB-8 attacks out of turn, he calls a random Resistance ally to Assist</td><td>87</td><td>64 %</td></tr><tr><td data-order="uniqueskill_BB802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Self-Preservation Protocol</td><td>When BB-8 Evades, Droid allies recover 8% Health and 8% Protection</td><td>68</td><td>50 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 938 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BB801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Roll with the Punches</td><td>When BB-8 attacks out of turn, he calls a random Resistance ally to Assist</td><td>456</td><td>49 %</td></tr><tr><td data-order="uniqueskill_BB802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Self-Preservation Protocol</td><td>When BB-8 Evades, Droid allies recover 8% Health and 8% Protection</td><td>354</td><td>38 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 0, 0, 1, 0, 4, 0, 16, 9, 2, 9, 11, 3, 3, 2, 4, 0, 4, 1, 55, 0, 0 ],
+    y: [ 119, 9, 5, 6, 4, 24, 24, 138, 109, 26, 65, 135, 5, 15, 13, 11, 4, 22, 2, 202, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.148148148148149, 8.148148148148149, 8.148148148148149, 8.88888888888889, 8.88888888888889, 11.851851851851853, 11.851851851851853, 23.703703703703706, 30.370370370370374, 31.851851851851855, 38.51851851851852, 46.66666666666667, 48.88888888888889, 51.111111111111114, 52.592592592592595, 55.55555555555556, 55.55555555555556, 58.51851851851852, 59.25925925925926, 100.0, 100.0, 100.0 ],
+    y: [ 12.686567164179104, 13.646055437100213, 14.17910447761194, 14.818763326226012, 15.245202558635393, 17.803837953091683, 20.362473347547972, 35.07462686567164, 46.69509594882729, 49.466950959488265, 56.396588486140715, 70.78891257995734, 71.32196162046907, 72.92110874200425, 74.30703624733474, 75.47974413646054, 75.90618336886992, 78.25159914712151, 78.4648187633262, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

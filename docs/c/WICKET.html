@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Wicket</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Wicket</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Wicket</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Wicket</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_ewok_wicket.png" />Alliance Character Data: Wicket</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/wicket/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/wicket/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/wicket/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/wicket/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1942 units from the
@@ -392,14 +382,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 143 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WICKET01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Furtive Tactics</td><td>Whenever Wicket scores a Critical Hit, all Ewok allies recover 4% Health and 2% Protection</td><td>38</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 992 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WICKET01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Furtive Tactics</td><td>Whenever Wicket scores a Critical Hit, all Ewok allies recover 4% Health and 2% Protection</td><td>314</td><td>32 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 13, 0, 0, 0, 0, 0, 4, 1, 6, 41, 48, 17, 1, 3, 1, 4, 1, 2, 1, 0, 0, 0 ],
+    y: [ 92, 2, 2, 6, 5, 17, 35, 31, 38, 196, 357, 181, 3, 7, 3, 9, 1, 4, 2, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 9.090909090909092, 9.090909090909092, 9.090909090909092, 9.090909090909092, 9.090909090909092, 9.090909090909092, 11.888111888111888, 12.587412587412588, 16.783216783216783, 45.45454545454545, 79.02097902097901, 90.9090909090909, 91.6083916083916, 93.70629370629369, 94.40559440559439, 97.20279720279719, 97.90209790209788, 99.30069930069928, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
+    y: [ 9.274193548387096, 9.475806451612902, 9.677419354838708, 10.282258064516128, 10.786290322580644, 12.499999999999998, 16.028225806451612, 19.153225806451612, 22.983870967741936, 42.74193548387097, 78.72983870967741, 96.9758064516129, 97.2782258064516, 97.98387096774192, 98.28629032258063, 99.19354838709675, 99.29435483870965, 99.69758064516127, 99.89919354838707, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -419,5 +409,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

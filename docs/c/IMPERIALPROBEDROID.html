@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Imperial Probe Droid</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Imperial Probe Droid</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Imperial Probe Droid</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Imperial Probe Droid</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_probedroid.png" />Alliance Character Data: Imperial Probe Droid</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/imperial-probe-droid/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/imperial-probe-droid/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/imperial-probe-droid/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/imperial-probe-droid/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 912 units from the
@@ -357,14 +347,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 99 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IMPERIALPROBEDROID01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Logistics</td><td>While Imperial Probe Droid is active Target Locked enemies can't gain buffs</td><td>37</td><td>37 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 597 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IMPERIALPROBEDROID01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Logistics</td><td>While Imperial Probe Droid is active Target Locked enemies can't gain buffs</td><td>121</td><td>20 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 33, 1, 1, 0, 1, 0, 11, 14, 5, 0, 1, 15, 1, 6, 4, 0, 1, 5, 0, 0, 0, 0 ],
+    y: [ 203, 14, 7, 9, 26, 13, 86, 118, 19, 3, 22, 48, 1, 8, 5, 6, 3, 6, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 33.33333333333333, 34.34343434343434, 35.35353535353535, 35.35353535353535, 36.36363636363636, 36.36363636363636, 47.474747474747474, 61.61616161616161, 66.66666666666666, 66.66666666666666, 67.67676767676767, 82.82828282828282, 83.83838383838383, 89.8989898989899, 93.93939393939394, 93.93939393939394, 94.94949494949495, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 34.003350083752096, 36.348408710217754, 37.52093802345058, 39.028475711892796, 43.38358458961474, 45.561139028475715, 59.96649916247907, 79.73199329983251, 82.91457286432163, 83.4170854271357, 87.10217755443888, 95.142378559464, 95.3098827470687, 96.64991624790622, 97.48743718592966, 98.4924623115578, 98.99497487437188, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -384,5 +374,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

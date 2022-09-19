@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Dengar</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Dengar</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Dengar</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Dengar</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_dengar.png" />Alliance Character Data: Dengar</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/dengar/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/dengar/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/dengar/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/dengar/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1440 units from the
@@ -323,14 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 143 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DENGAR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Grizzled Veteran</td><td>Add 3% Health and Protection when this ability's effects trigger</td><td>28</td><td>20 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 968 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DENGAR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Grizzled Veteran</td><td>Add 3% Health and Protection when this ability's effects trigger</td><td>259</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 0, 0, 0, 2, 0, 5, 3, 3, 3, 4, 5, 0, 1, 0, 1, 0, 111, 0, 0, 0, 0 ],
+    y: [ 75, 1, 3, 5, 12, 11, 69, 24, 80, 17, 40, 99, 3, 13, 4, 5, 5, 499, 1, 2, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.4965034965034967, 3.4965034965034967, 3.4965034965034967, 3.4965034965034967, 4.895104895104895, 4.895104895104895, 8.391608391608392, 10.48951048951049, 12.587412587412588, 14.685314685314687, 17.482517482517483, 20.97902097902098, 20.97902097902098, 21.67832167832168, 21.67832167832168, 22.37762237762238, 22.37762237762238, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 7.747933884297521, 7.8512396694214885, 8.16115702479339, 8.677685950413224, 9.917355371900827, 11.053719008264464, 18.181818181818183, 20.66115702479339, 28.925619834710744, 30.681818181818183, 34.81404958677686, 45.04132231404959, 45.35123966942149, 46.69421487603306, 47.107438016528924, 47.62396694214876, 48.1404958677686, 99.69008264462809, 99.79338842975206, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -350,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

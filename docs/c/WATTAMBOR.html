@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Wat Tambor</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Wat Tambor</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Wat Tambor</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Wat Tambor</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_wattambor.png" />Alliance Character Data: Wat Tambor</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/wat-tambor/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/wat-tambor/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/wat-tambor/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/wat-tambor/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2248 units from the
@@ -229,14 +219,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 138 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>Wat takes a bonus turn instead</td><td>121</td><td>88 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 872 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>Wat takes a bonus turn instead</td><td>731</td><td>84 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 8, 0, 1, 0, 1, 1, 1, 0, 7, 5, 6, 1, 0, 0, 1, 1, 0, 4, 0, 101, 0, 0 ],
+    y: [ 51, 6, 2, 1, 17, 6, 24, 23, 70, 41, 61, 41, 6, 7, 7, 8, 6, 36, 0, 459, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.797101449275362, 5.797101449275362, 6.521739130434782, 6.521739130434782, 7.246376811594202, 7.971014492753622, 8.695652173913043, 8.695652173913043, 13.768115942028984, 17.391304347826086, 21.73913043478261, 22.46376811594203, 22.46376811594203, 22.46376811594203, 23.188405797101453, 23.913043478260875, 23.913043478260875, 26.811594202898554, 26.811594202898554, 100.0, 100.0, 100.0 ],
+    y: [ 5.848623853211009, 6.536697247706423, 6.7660550458715605, 6.880733944954129, 8.830275229357799, 9.518348623853212, 12.270642201834864, 14.908256880733948, 22.935779816513765, 27.637614678899087, 34.633027522935784, 39.3348623853211, 40.022935779816514, 40.825688073394495, 41.62844036697248, 42.54587155963303, 43.23394495412844, 47.362385321100916, 47.362385321100916, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -256,5 +246,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Pao</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Pao</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Pao</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Pao</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_pao.png" />Alliance Character Data: Pao</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/pao/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/pao/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/pao/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/pao/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1276 units from the
@@ -298,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 117 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> For Pipada</td><td>Gains 5% Turn Meter whenever a Rebel ally uses Basic attack.</td><td>66</td><td>56 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 832 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> For Pipada</td><td>Gains 5% Turn Meter whenever a Rebel ally uses Basic attack.</td><td>234</td><td>28 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 28, 2, 1, 4, 0, 1, 1, 10, 1, 0, 4, 17, 0, 2, 4, 12, 6, 20, 0, 4, 0, 0 ],
+    y: [ 265, 24, 11, 35, 6, 41, 39, 154, 15, 5, 33, 103, 2, 7, 8, 29, 11, 37, 1, 6, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 23.931623931623932, 25.641025641025642, 26.495726495726498, 29.914529914529915, 29.914529914529915, 30.76923076923077, 31.623931623931625, 40.17094017094017, 41.02564102564102, 41.02564102564102, 44.44444444444444, 58.97435897435898, 58.97435897435898, 60.68376068376069, 64.1025641025641, 74.35897435897436, 79.48717948717949, 96.58119658119658, 96.58119658119658, 100.0, 100.0, 100.0 ],
+    y: [ 31.850961538461537, 34.73557692307692, 36.05769230769231, 40.26442307692307, 40.98557692307692, 45.91346153846153, 50.60096153846153, 69.11057692307692, 70.91346153846153, 71.51442307692307, 75.48076923076923, 87.86057692307692, 88.10096153846153, 88.9423076923077, 89.90384615384616, 93.38942307692308, 94.71153846153847, 99.15865384615385, 99.27884615384616, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -325,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

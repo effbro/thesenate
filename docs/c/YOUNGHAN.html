@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Young Han Solo</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Young Han Solo</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Young Han Solo</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Young Han Solo</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_han_young.png" />Alliance Character Data: Young Han Solo</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/young-han-solo/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/young-han-solo/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/young-han-solo/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/young-han-solo/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 769 units from the
@@ -298,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 98 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_YOUNGHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Ready For Anything</td><td>While Prepared, Han has 70% chance to Assist another Scoundrel ally's attack during their turn, limited once per turn</td><td>25</td><td>26 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 733 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_YOUNGHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Ready For Anything</td><td>While Prepared, Han has 70% chance to Assist another Scoundrel ally's attack during their turn, limited once per turn</td><td>73</td><td>10 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 28, 3, 2, 2, 2, 3, 7, 16, 1, 0, 2, 15, 0, 2, 0, 3, 3, 7, 0, 2, 0, 0 ],
+    y: [ 221, 29, 7, 31, 24, 46, 95, 171, 8, 4, 13, 52, 0, 4, 1, 7, 4, 13, 1, 2, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 28.57142857142857, 31.632653061224488, 33.6734693877551, 35.71428571428571, 37.75510204081632, 40.81632653061224, 47.95918367346938, 64.28571428571428, 65.30612244897958, 65.30612244897958, 67.3469387755102, 82.65306122448979, 82.65306122448979, 84.6938775510204, 84.6938775510204, 87.75510204081633, 90.81632653061224, 97.95918367346938, 97.95918367346938, 100.0, 100.0, 100.0 ],
+    y: [ 30.15006821282401, 34.106412005457024, 35.06139154160982, 39.29058663028649, 42.56480218281037, 48.84038199181446, 61.800818553888135, 85.12960436562074, 86.22100954979535, 86.76671214188266, 88.54024556616643, 95.6343792633015, 95.6343792633015, 96.1800818553888, 96.31650750341063, 97.27148703956343, 97.81718963165073, 99.5907230559345, 99.72714870395633, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -325,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

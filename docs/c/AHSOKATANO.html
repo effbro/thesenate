@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Ahsoka Tano</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Ahsoka Tano</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Ahsoka Tano</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Ahsoka Tano</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_ahsoka.png" />Alliance Character Data: Ahsoka Tano</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/ahsoka-tano/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/ahsoka-tano/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/ahsoka-tano/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/ahsoka-tano/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2767 units from the
@@ -377,14 +367,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 146 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_AHSOKATANO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hp.png" style="width: 30px" /> Daring Padawan</td><td>If the ally leader is Galactic Republic, Ahsoka is called to assist whenever another Galactic Republic ally uses a Special ability</td><td>132</td><td>90 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1026 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_AHSOKATANO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hp.png" style="width: 30px" /> Daring Padawan</td><td>If the ally leader is Galactic Republic, Ahsoka is called to assist whenever another Galactic Republic ally uses a Special ability</td><td>843</td><td>82 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 1, 0, 3, 1, 1, 0, 9, 10, 0, 0, 1, 3, 4, 64, 9, 26, 14, 0 ],
+    y: [ 6, 0, 2, 1, 3, 3, 18, 54, 5, 29, 57, 122, 2, 7, 14, 51, 54, 427, 40, 106, 25, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.684931506849315, 0.684931506849315, 2.73972602739726, 3.4246575342465753, 4.10958904109589, 4.10958904109589, 10.273972602739725, 17.123287671232877, 17.123287671232877, 17.123287671232877, 17.80821917808219, 19.863013698630134, 22.602739726027394, 66.43835616438355, 72.60273972602738, 90.41095890410958, 99.99999999999999, 99.99999999999999 ],
+    y: [ 0.5847953216374269, 0.5847953216374269, 0.7797270955165692, 0.8771929824561403, 1.1695906432748537, 1.461988304093567, 3.216374269005848, 8.47953216374269, 8.966861598440545, 11.793372319688109, 17.348927875243664, 29.239766081871345, 29.434697855750485, 30.116959064327485, 31.48148148148148, 36.45224171539961, 41.71539961013645, 83.33333333333334, 87.23196881091619, 97.56335282651072, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -404,5 +394,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

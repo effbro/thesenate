@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: L3-37</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: L3-37</h1></div>
+</style><title>Guild Reports: Alliance Character Data: L3-37</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: L3-37</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_l337.png" />Alliance Character Data: L3-37</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/l3-37/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/l3-37/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/l3-37/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/l3-37/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1298 units from the
@@ -362,14 +352,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 127 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_l3_37_01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> For the Droids</td><td>Add The first time each other Droid ally is reduced to 1% Health, they equalize Health with L3-37</td><td>19</td><td>15 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 913 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_l3_37_01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> For the Droids</td><td>Add The first time each other Droid ally is reduced to 1% Health, they equalize Health with L3-37</td><td>65</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 36, 1, 5, 2, 2, 1, 3, 14, 2, 0, 4, 17, 0, 1, 0, 8, 3, 19, 0, 7, 2, 0 ],
+    y: [ 342, 14, 32, 28, 20, 30, 59, 162, 17, 9, 28, 84, 1, 4, 8, 18, 7, 36, 1, 11, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 28.346456692913385, 29.133858267716533, 33.07086614173228, 34.64566929133858, 36.220472440944874, 37.00787401574802, 39.370078740157474, 50.39370078740157, 51.96850393700787, 51.96850393700787, 55.11811023622047, 68.50393700787401, 68.50393700787401, 69.29133858267717, 69.29133858267717, 75.59055118110237, 77.95275590551182, 92.91338582677167, 92.91338582677167, 98.42519685039372, 100.00000000000001, 100.00000000000001 ],
+    y: [ 37.458926615553125, 38.99233296823659, 42.497261774370216, 45.56407447973714, 47.75465498357065, 51.04052573932093, 57.5027382256298, 75.24644030668128, 77.10843373493977, 78.09419496166485, 81.16100766703178, 90.36144578313255, 90.47097480832423, 90.90909090909093, 91.78532311062435, 93.75684556407451, 94.52354874041625, 98.46659364731657, 98.57612267250825, 99.78094194961668, 100.00000000000003, 100.00000000000003 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -389,5 +379,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Hunter</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Hunter</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Hunter</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Hunter</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_bb_hunter.png" />Alliance Character Data: Hunter</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/hunter/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/hunter/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/hunter/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/hunter/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1533 units from the
@@ -308,14 +298,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 128 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BADBATCHHUNTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_adifferentpath.png" style="width: 30px" /> A Different Path</td><td /><td>91</td><td>71 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 861 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BADBATCHHUNTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_adifferentpath.png" style="width: 30px" /> A Different Path</td><td /><td>386</td><td>45 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 17, 1, 1, 1, 0, 4, 2, 12, 17, 2, 5, 4, 1, 0, 0, 0, 0, 48, 2, 11, 0, 0 ],
+    y: [ 244, 12, 15, 16, 8, 35, 49, 47, 120, 18, 27, 39, 5, 3, 7, 5, 0, 192, 3, 16, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 13.28125, 14.0625, 14.84375, 15.625, 15.625, 18.75, 20.3125, 29.6875, 42.96875, 44.53125, 48.4375, 51.5625, 52.34375, 52.34375, 52.34375, 52.34375, 52.34375, 89.84375, 91.40625, 100.0, 100.0, 100.0 ],
+    y: [ 28.339140534262487, 29.732868757259002, 31.475029036004646, 33.333333333333336, 34.26248548199768, 38.32752613240418, 44.01858304297328, 49.47735191637631, 63.41463414634146, 65.50522648083624, 68.6411149825784, 73.17073170731707, 73.75145180023229, 74.09988385598142, 74.91289198606272, 75.49361207897793, 75.49361207897793, 97.79326364692218, 98.14169570267131, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +325,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

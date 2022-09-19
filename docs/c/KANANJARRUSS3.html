@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Kanan Jarrus</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Kanan Jarrus</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Kanan Jarrus</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Kanan Jarrus</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_kanan_s3.png" />Alliance Character Data: Kanan Jarrus</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/kanan-jarrus/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/kanan-jarrus/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/kanan-jarrus/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/kanan-jarrus/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 892 units from the
@@ -318,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 145 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KANANJARRUSS302"><img src="https://game-assets.swgoh.gg/tex.ability_kanan_s3_special02.png" style="width: 30px" /> Total Defense</td><td>Dispel all debuffs on Phoenix allies and grant them Defense Up for 3 turns, grant Kanan and target ally Foresight for 2 turns, and when each of these Foresights expire Kanan gains 100% Turn Meter and other Phoenix allies gain 50% Turn Meter</td><td>23</td><td>16 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1024 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KANANJARRUSS302"><img src="https://game-assets.swgoh.gg/tex.ability_kanan_s3_special02.png" style="width: 30px" /> Total Defense</td><td>Dispel all debuffs on Phoenix allies and grant them Defense Up for 3 turns, grant Kanan and target ally Foresight for 2 turns, and when each of these Foresights expire Kanan gains 100% Turn Meter and other Phoenix allies gain 50% Turn Meter</td><td>181</td><td>18 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 1, 92, 7, 10, 11, 14, 0, 0, 2, 2, 1, 4, 0, 1, 0, 0 ],
+    y: [ 3, 0, 0, 1, 2, 1, 17, 619, 101, 95, 66, 87, 0, 1, 5, 4, 7, 14, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6896551724137931, 64.13793103448276, 68.96551724137932, 75.86206896551725, 83.44827586206898, 93.10344827586209, 93.10344827586209, 93.10344827586209, 94.48275862068968, 95.86206896551727, 96.55172413793106, 99.31034482758623, 99.31034482758623, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
+    y: [ 0.29296875, 0.29296875, 0.29296875, 0.390625, 0.5859375, 0.68359375, 2.34375, 62.79296875, 72.65625, 81.93359375, 88.37890625, 96.875, 96.875, 96.97265625, 97.4609375, 97.8515625, 98.53515625, 99.90234375, 99.90234375, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Stormtrooper Han</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Stormtrooper Han</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Stormtrooper Han</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Stormtrooper Han</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_trooperstorm_han.png" />Alliance Character Data: Stormtrooper Han</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/stormtrooper-han/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/stormtrooper-han/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/stormtrooper-han/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/stormtrooper-han/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 939 units from the
@@ -323,14 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 145 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_STORMTROOPERHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stun_immute.png" style="width: 30px" /> Bluff</td><td>Whenever Han takes damage he recovers 5% Protection</td><td>20</td><td>14 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1020 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_STORMTROOPERHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stun_immute.png" style="width: 30px" /> Bluff</td><td>Whenever Han takes damage he recovers 5% Protection</td><td>92</td><td>9 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 2, 0, 0, 0, 0, 0, 2, 24, 61, 14, 15, 13, 0, 1, 0, 2, 2, 6, 1, 2, 0, 0 ],
+    y: [ 9, 0, 2, 6, 6, 4, 13, 163, 476, 117, 140, 51, 1, 2, 1, 10, 4, 10, 1, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.3793103448275863, 1.3793103448275863, 1.3793103448275863, 1.3793103448275863, 1.3793103448275863, 1.3793103448275863, 2.7586206896551726, 19.310344827586206, 61.37931034482759, 71.0344827586207, 81.37931034482759, 90.34482758620689, 90.34482758620689, 91.03448275862068, 91.03448275862068, 92.41379310344827, 93.79310344827586, 97.93103448275862, 98.62068965517241, 100.0, 100.0, 100.0 ],
+    y: [ 0.8823529411764706, 0.8823529411764706, 1.0784313725490196, 1.6666666666666665, 2.2549019607843137, 2.6470588235294117, 3.9215686274509802, 19.901960784313722, 66.56862745098039, 78.0392156862745, 91.76470588235293, 96.76470588235293, 96.8627450980392, 97.05882352941175, 97.15686274509802, 98.13725490196077, 98.52941176470587, 99.50980392156862, 99.60784313725489, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -350,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

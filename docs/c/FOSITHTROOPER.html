@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Sith Trooper</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Sith Trooper</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Sith Trooper</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Sith Trooper</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_firstorder_sithtrooper.png" />Alliance Character Data: Sith Trooper</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/sith-trooper/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/sith-trooper/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/sith-trooper/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/sith-trooper/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1963 units from the
@@ -308,14 +298,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 123 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FOSITHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Emperor's Legacy</td><td /><td>87</td><td>71 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 829 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FOSITHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Emperor's Legacy</td><td /><td>515</td><td>62 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 20, 1, 0, 1, 0, 0, 5, 6, 3, 2, 1, 4, 0, 0, 0, 1, 0, 52, 4, 21, 2, 0 ],
+    y: [ 111, 3, 8, 15, 14, 10, 48, 67, 16, 21, 18, 41, 1, 4, 0, 4, 2, 359, 27, 58, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 16.260162601626014, 17.073170731707314, 17.073170731707314, 17.886178861788615, 17.886178861788615, 17.886178861788615, 21.951219512195117, 26.829268292682922, 29.268292682926823, 30.894308943089424, 31.707317073170724, 34.95934959349593, 34.95934959349593, 34.95934959349593, 34.95934959349593, 35.77235772357723, 35.77235772357723, 78.04878048780488, 81.30081300813008, 98.3739837398374, 100.0, 100.0 ],
+    y: [ 13.38962605548854, 13.751507840772014, 14.716525934861277, 16.525934861278646, 18.214716525934858, 19.42098914354644, 25.211097708082026, 33.293124246079614, 35.22316043425814, 37.75633293124246, 39.9276236429433, 44.87334137515078, 44.99396863691194, 45.47647768395657, 45.47647768395657, 45.9589867310012, 46.20024125452351, 89.50542822677924, 92.76236429433051, 99.75874547647767, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +325,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

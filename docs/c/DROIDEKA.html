@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Droideka</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Droideka</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Droideka</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Droideka</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_droideka.png" />Alliance Character Data: Droideka</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/droideka/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/droideka/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/droideka/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/droideka/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2103 units from the
@@ -303,14 +293,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 144 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DROIDEKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Deflector Shield Generator</td><td>Add +25% Evasion, and if Droideka has Damage Immunity it has a 35% chance to assist dealing 50% less damage whenever another Separatist ally uses an ability (limit once per turn)</td><td>126</td><td>88 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 977 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DROIDEKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Deflector Shield Generator</td><td>Add +25% Evasion, and if Droideka has Damage Immunity it has a 35% chance to assist dealing 50% less damage whenever another Separatist ally uses an ability (limit once per turn)</td><td>738</td><td>76 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 1, 0, 0, 0, 0, 2, 2, 0, 1, 6, 70, 1, 1, 4, 12, 12, 21, 1, 5, 0, 0 ],
+    y: [ 101, 5, 6, 4, 4, 7, 31, 40, 23, 9, 34, 329, 2, 14, 30, 111, 89, 125, 5, 8, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.4722222222222223, 4.166666666666667, 4.166666666666667, 4.166666666666667, 4.166666666666667, 4.166666666666667, 5.555555555555555, 6.944444444444445, 6.944444444444445, 7.638888888888889, 11.805555555555555, 60.416666666666664, 61.11111111111111, 61.80555555555555, 64.58333333333333, 72.91666666666666, 81.24999999999999, 95.83333333333331, 96.52777777777776, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 10.337768679631525, 10.849539406345958, 11.463664278403275, 11.87308085977482, 12.282497441146365, 12.99897645854657, 16.17195496417605, 20.266120777891505, 22.62026612077789, 23.541453428863868, 27.021494370522007, 60.696008188331625, 60.9007164790174, 62.333674513817805, 65.4042988741044, 76.76560900716478, 85.87512794268167, 98.66939611054246, 99.1811668372569, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +320,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Darth Sidious</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Darth Sidious</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Darth Sidious</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Darth Sidious</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_sidious.png" />Alliance Character Data: Darth Sidious</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/darth-sidious/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/darth-sidious/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/darth-sidious/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/darth-sidious/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2108 units from the
@@ -328,14 +318,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 139 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHSIDIOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Sadistic Glee</td><td>100% Turn Meter Gain Chance, +50% Potency, and gain Max Health equal to Potency percentage</td><td>80</td><td>58 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 970 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHSIDIOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Sadistic Glee</td><td>100% Turn Meter Gain Chance, +50% Potency, and gain Max Health equal to Potency percentage</td><td>386</td><td>40 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 8, 0, 1, 0, 0, 0, 2, 28, 0, 1, 5, 3, 0, 0, 0, 0, 0, 0, 0, 91, 0, 0 ],
+    y: [ 81, 9, 4, 6, 8, 9, 21, 255, 39, 40, 72, 39, 3, 3, 3, 2, 1, 7, 4, 362, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.755395683453238, 5.755395683453238, 6.474820143884893, 6.474820143884893, 6.474820143884893, 6.474820143884893, 7.913669064748202, 28.057553956834532, 28.057553956834532, 28.776978417266186, 32.37410071942446, 34.53237410071942, 34.53237410071942, 34.53237410071942, 34.53237410071942, 34.53237410071942, 34.53237410071942, 34.53237410071942, 34.53237410071942, 100.0, 100.0, 100.0 ],
+    y: [ 8.350515463917525, 9.278350515463917, 9.690721649484535, 10.309278350515463, 11.1340206185567, 12.061855670103093, 14.22680412371134, 40.51546391752578, 44.53608247422681, 48.659793814432994, 56.08247422680413, 60.10309278350516, 60.412371134020624, 60.72164948453609, 61.03092783505155, 61.23711340206186, 61.34020618556701, 62.06185567010309, 62.47422680412371, 99.79381443298969, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -355,5 +345,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

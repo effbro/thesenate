@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Admiral Piett</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Admiral Piett</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Admiral Piett</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Admiral Piett</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_piett.png" />Alliance Character Data: Admiral Piett</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/admiral-piett/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/admiral-piett/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/admiral-piett/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/admiral-piett/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2272 units from the
@@ -318,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 140 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ADMIRALPIETT02"><img src="https://game-assets.swgoh.gg/tex.ability_piett_special02.png" style="width: 30px" /> Suborbital Strike</td><td /><td>117</td><td>84 %</td></tr><tr><td data-order="uniqueskill_ADMIRALPIETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_assist.png" style="width: 30px" /> The Emperor's Trap</td><td /><td>122</td><td>87 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 964 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ADMIRALPIETT02"><img src="https://game-assets.swgoh.gg/tex.ability_piett_special02.png" style="width: 30px" /> Suborbital Strike</td><td /><td>651</td><td>68 %</td></tr><tr><td data-order="uniqueskill_ADMIRALPIETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_assist.png" style="width: 30px" /> The Emperor's Trap</td><td /><td>730</td><td>76 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 7, 0, 0, 0, 1, 0, 3, 2, 2, 2, 2, 1, 1, 0, 0, 1, 2, 5, 0, 1, 71, 39 ],
+    y: [ 94, 7, 3, 5, 18, 13, 39, 45, 26, 38, 20, 24, 2, 9, 5, 10, 8, 89, 5, 13, 387, 104 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.0, 5.0, 5.0, 5.0, 5.714285714285714, 5.714285714285714, 7.857142857142858, 9.285714285714286, 10.714285714285715, 12.142857142857144, 13.571428571428573, 14.285714285714286, 15.0, 15.0, 15.0, 15.714285714285714, 17.142857142857142, 20.714285714285715, 20.714285714285715, 21.42857142857143, 72.14285714285714, 100.0 ],
+    y: [ 9.751037344398341, 10.477178423236515, 10.78838174273859, 11.307053941908714, 13.174273858921163, 14.522821576763487, 18.568464730290458, 23.23651452282158, 25.933609958506228, 29.875518672199174, 31.950207468879672, 34.43983402489627, 34.64730290456432, 35.580912863070544, 36.09958506224067, 37.136929460580916, 37.96680497925311, 47.19917012448133, 47.71784232365145, 49.066390041493776, 89.21161825726142, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

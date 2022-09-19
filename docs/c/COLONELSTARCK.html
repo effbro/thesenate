@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Colonel Starck</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Colonel Starck</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Colonel Starck</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Colonel Starck</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_colonel_stark.png" />Alliance Character Data: Colonel Starck</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/colonel-starck/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/colonel-starck/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/colonel-starck/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/colonel-starck/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2122 units from the
@@ -377,14 +367,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 134 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_COLONELSTARCK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Intelligence</td><td>At the end of his turn, Starck recovers 3% Protection, and removes 1% Turn Meter from all enemies for each active Empire ally (doubled for Imperial Trooper allies)</td><td>81</td><td>60 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 957 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_COLONELSTARCK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Intelligence</td><td>At the end of his turn, Starck recovers 3% Protection, and removes 1% Turn Meter from all enemies for each active Empire ally (doubled for Imperial Trooper allies)</td><td>449</td><td>47 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 4, 0, 0, 1, 2, 0, 10, 3, 9, 3, 0, 4, 3, 1, 1, 58, 7, 22, 5, 1, 0, 0 ],
+    y: [ 81, 3, 2, 12, 31, 25, 120, 46, 64, 47, 29, 59, 10, 7, 5, 307, 19, 83, 6, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.9850746268656714, 2.9850746268656714, 2.9850746268656714, 3.731343283582089, 5.223880597014925, 5.223880597014925, 12.686567164179102, 14.925373134328357, 21.64179104477612, 23.880597014925375, 23.880597014925375, 26.865671641791046, 29.1044776119403, 29.850746268656717, 30.597014925373134, 73.88059701492537, 79.1044776119403, 95.52238805970148, 99.25373134328358, 100.0, 100.0, 100.0 ],
+    y: [ 8.463949843260188, 8.77742946708464, 8.986415882967608, 10.240334378265413, 13.47962382445141, 16.091954022988507, 28.63113897596656, 33.437826541274816, 40.12539184952978, 45.03657262277952, 48.06687565308255, 54.23197492163009, 55.276907001044925, 56.00835945663531, 56.53082549634273, 88.61024033437826, 90.59561128526646, 99.26854754440961, 99.89550679205851, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -404,5 +394,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

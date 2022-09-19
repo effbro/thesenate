@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Canderous Ordo</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Canderous Ordo</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Canderous Ordo</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Canderous Ordo</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_canderous.png" />Alliance Character Data: Canderous Ordo</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/canderous-ordo/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/canderous-ordo/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/canderous-ordo/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/canderous-ordo/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2304 units from the
@@ -323,14 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 134 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CANDEROUSORDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> I Like a Challenge</td><td>Canderous gains Critical Damage Up for 2 turns when an enemy gains Taunt, or becomes Deathmarked or Marked</td><td>53</td><td>40 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 885 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CANDEROUSORDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> I Like a Challenge</td><td>Canderous gains Critical Damage Up for 2 turns when an enemy gains Taunt, or becomes Deathmarked or Marked</td><td>315</td><td>36 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 2, 0, 0, 0, 1, 0, 9, 7, 0, 6, 9, 43, 1, 1, 4, 13, 6, 25, 0, 6, 1, 0 ],
+    y: [ 40, 4, 5, 2, 7, 5, 87, 48, 0, 45, 114, 393, 2, 9, 9, 33, 11, 59, 0, 11, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.4925373134328357, 1.4925373134328357, 1.4925373134328357, 1.4925373134328357, 2.2388059701492535, 2.2388059701492535, 8.955223880597014, 14.17910447761194, 14.17910447761194, 18.656716417910445, 25.373134328358205, 57.46268656716418, 58.208955223880594, 58.95522388059701, 61.940298507462686, 71.64179104477611, 76.11940298507461, 94.77611940298506, 94.77611940298506, 99.25373134328356, 99.99999999999999, 99.99999999999999 ],
+    y: [ 4.519774011299435, 4.971751412429379, 5.536723163841808, 5.762711864406779, 6.553672316384181, 7.11864406779661, 16.949152542372882, 22.372881355932204, 22.372881355932204, 27.45762711864407, 40.33898305084746, 84.74576271186442, 84.97175141242938, 85.98870056497175, 87.00564971751412, 90.73446327683615, 91.9774011299435, 98.64406779661017, 98.64406779661017, 99.88700564971752, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -350,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

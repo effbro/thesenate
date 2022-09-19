@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: First Order TIE Pilot</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: First Order TIE Pilot</h1></div>
+</style><title>Guild Reports: Alliance Character Data: First Order TIE Pilot</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: First Order TIE Pilot</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png" />Alliance Character Data: First Order TIE Pilot</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/first-order-tie-pilot/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/first-order-tie-pilot/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/first-order-tie-pilot/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/first-order-tie-pilot/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2217 units from the
@@ -318,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 145 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTIEPILOT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Keen Eye</td><td>15% Critical Chance, +10% Critical Damage, and First Order TIE Pilot has a 70% chance to gain Foresight for 2 turns whenever he loses Advantage</td><td>51</td><td>35 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1024 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTIEPILOT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Keen Eye</td><td>15% Critical Chance, +10% Critical Damage, and First Order TIE Pilot has a 70% chance to gain Foresight for 2 turns whenever he loses Advantage</td><td>376</td><td>37 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 18, 0, 0, 5, 5, 6, 2, 10, 0, 5, 7, 6, 1, 0, 0, 64, 3, 10, 1, 2, 0, 0 ],
+    y: [ 110, 6, 11, 17, 28, 47, 40, 84, 39, 61, 64, 59, 4, 1, 1, 391, 15, 40, 2, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 12.413793103448276, 12.413793103448276, 12.413793103448276, 15.862068965517242, 19.310344827586206, 23.448275862068964, 24.82758620689655, 31.724137931034484, 31.724137931034484, 35.17241379310345, 40.0, 44.13793103448276, 44.827586206896555, 44.827586206896555, 44.827586206896555, 88.96551724137932, 91.0344827586207, 97.93103448275863, 98.62068965517243, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 10.7421875, 11.328125, 12.40234375, 14.0625, 16.796875, 21.38671875, 25.29296875, 33.49609375, 37.3046875, 43.26171875, 49.51171875, 55.2734375, 55.6640625, 55.76171875, 55.859375, 94.04296875, 95.5078125, 99.4140625, 99.609375, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

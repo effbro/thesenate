@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Veteran Smuggler Han Solo</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Veteran Smuggler Han Solo</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Veteran Smuggler Han Solo</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Veteran Smuggler Han Solo</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_tfa_han.png" />Alliance Character Data: Veteran Smuggler Han Solo</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/veteran-smuggler-han-solo/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/veteran-smuggler-han-solo/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/veteran-smuggler-han-solo/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/veteran-smuggler-han-solo/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1898 units from the
@@ -461,14 +451,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 139 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_SMUGGLERHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_supply.png" style="width: 30px" /> Swindle</td><td>Whenever Han gains any status effect, he gains 50 Armor Penetration (stacking) until the end of his next turn</td><td>17</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 951 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_SMUGGLERHAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_supply.png" style="width: 30px" /> Swindle</td><td>Whenever Han gains any status effect, he gains 50 Armor Penetration (stacking) until the end of his next turn</td><td>146</td><td>15 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 0, 0, 0, 0, 0, 4, 45, 3, 0, 2, 1, 1, 1, 0, 67, 3, 5, 0, 4, 0, 0 ],
+    y: [ 21, 1, 3, 6, 5, 13, 27, 328, 42, 6, 17, 41, 1, 4, 1, 408, 8, 15, 0, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.158273381294964, 2.158273381294964, 2.158273381294964, 2.158273381294964, 2.158273381294964, 2.158273381294964, 5.035971223021583, 37.410071942446045, 39.568345323741006, 39.568345323741006, 41.007194244604314, 41.72661870503597, 42.44604316546762, 43.165467625899275, 43.165467625899275, 91.36690647482014, 93.5251798561151, 97.12230215827337, 97.12230215827337, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 2.2082018927444795, 2.3133543638275498, 2.628811777076761, 3.2597266035751837, 3.785488958990536, 5.152471083070452, 7.991587802313354, 42.48159831756046, 46.89800210304942, 47.52891692954785, 49.316508937960045, 53.62776025236593, 53.732912723449004, 54.153522607781284, 54.25867507886436, 97.1608832807571, 98.00210304942166, 99.57939011566772, 99.57939011566772, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -488,5 +478,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

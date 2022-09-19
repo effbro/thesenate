@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Kuiil</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Kuiil</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Kuiil</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Kuiil</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_kuiil.png" />Alliance Character Data: Kuiil</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/kuiil/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/kuiil/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/kuiil/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/kuiil/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1355 units from the
@@ -229,14 +219,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 136 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_KUIIL01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_frontierwisdom.png" style="width: 30px" /> Frontier Wisdom</td><td /><td>78</td><td>57 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 910 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_KUIIL01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_frontierwisdom.png" style="width: 30px" /> Frontier Wisdom</td><td /><td>335</td><td>37 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 8, 2, 0, 1, 0, 0, 5, 20, 20, 7, 2, 11, 0, 2, 2, 14, 6, 23, 4, 9, 0, 0 ],
+    y: [ 90, 14, 7, 9, 4, 5, 42, 151, 266, 59, 52, 78, 2, 7, 7, 36, 11, 52, 5, 13, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.88235294117647, 7.352941176470588, 7.352941176470588, 8.088235294117647, 8.088235294117647, 8.088235294117647, 11.764705882352942, 26.47058823529412, 41.1764705882353, 46.32352941176471, 47.794117647058826, 55.88235294117647, 55.88235294117647, 57.35294117647059, 58.8235294117647, 69.11764705882352, 73.52941176470587, 90.44117647058823, 93.38235294117646, 100.0, 100.0, 100.0 ],
+    y: [ 9.89010989010989, 11.428571428571429, 12.197802197802199, 13.186813186813188, 13.626373626373628, 14.175824175824177, 18.791208791208792, 35.38461538461539, 64.61538461538461, 71.0989010989011, 76.8131868131868, 85.38461538461537, 85.60439560439559, 86.37362637362637, 87.14285714285714, 91.0989010989011, 92.3076923076923, 98.02197802197801, 98.57142857142857, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -256,5 +246,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: CC-2224 "Cody"</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: CC-2224 "Cody"</h1></div>
+</style><title>Guild Reports: Alliance Character Data: CC-2224 "Cody"</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: CC-2224 "Cody"</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_trooperclone_cody.png" />Alliance Character Data: CC-2224 "Cody"</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/cc-2224-cody/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/cc-2224-cody/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/cc-2224-cody/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/cc-2224-cody/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2051 units from the
@@ -412,14 +402,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 140 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_CC2224"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Ghost Company Commander</td><td>+5% Critical Chance, +10% Defense, and Clone allies recover 5% of their Max Protection whenever they use a Basic ability</td><td>29</td><td>21 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 989 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_CC2224"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Ghost Company Commander</td><td>+5% Critical Chance, +10% Defense, and Clone allies recover 5% of their Max Protection whenever they use a Basic ability</td><td>193</td><td>20 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 8, 0, 0, 0, 0, 0, 1, 26, 2, 0, 0, 1, 0, 1, 0, 0, 0, 99, 1, 1, 0, 0 ],
+    y: [ 81, 1, 2, 8, 9, 10, 34, 215, 29, 21, 48, 42, 1, 2, 4, 6, 1, 469, 3, 3, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.714285714285714, 5.714285714285714, 5.714285714285714, 5.714285714285714, 5.714285714285714, 5.714285714285714, 6.428571428571429, 25.0, 26.428571428571427, 26.428571428571427, 26.428571428571427, 27.142857142857142, 27.142857142857142, 27.857142857142858, 27.857142857142858, 27.857142857142858, 27.857142857142858, 98.57142857142858, 99.28571428571429, 100.0, 100.0, 100.0 ],
+    y: [ 8.190091001011123, 8.291203235591507, 8.493427704752275, 9.30232558139535, 10.212335692618808, 11.22345803842265, 14.661274014155714, 36.400404448938325, 39.33265925176947, 41.45601617795754, 46.30940343781598, 50.55611729019212, 50.657229524772504, 50.85945399393327, 51.26390293225481, 51.87057633973711, 51.9716885743175, 99.3933265925177, 99.69666329625885, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -439,5 +429,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

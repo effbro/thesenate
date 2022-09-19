@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Barriss Offee</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Barriss Offee</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Barriss Offee</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Barriss Offee</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_barriss_light.png" />Alliance Character Data: Barriss Offee</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/barriss-offee/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/barriss-offee/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/barriss-offee/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/barriss-offee/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1693 units from the
@@ -224,14 +214,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 137 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BARRISSOFFEE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Swift Recovery</td><td>Whenever an ally is Critically Hit they recover 20% of their Max Health</td><td>72</td><td>53 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 936 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BARRISSOFFEE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Swift Recovery</td><td>Whenever an ally is Critically Hit they recover 20% of their Max Health</td><td>352</td><td>38 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 39, 0, 2, 0, 2, 2, 4, 11, 4, 5, 1, 18, 0, 0, 1, 11, 1, 23, 1, 11, 1, 0 ],
+    y: [ 296, 8, 7, 14, 17, 27, 21, 155, 23, 32, 57, 136, 0, 6, 12, 42, 9, 57, 2, 14, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 28.467153284671532, 28.467153284671532, 29.927007299270073, 29.927007299270073, 31.386861313868614, 32.846715328467155, 35.76642335766424, 43.79562043795621, 46.71532846715329, 50.36496350364964, 51.09489051094891, 64.23357664233578, 64.23357664233578, 64.23357664233578, 64.96350364963504, 72.99270072992701, 73.72262773722628, 90.51094890510949, 91.24087591240875, 99.27007299270072, 99.99999999999999, 99.99999999999999 ],
+    y: [ 31.62393162393162, 32.47863247863248, 33.22649572649573, 34.72222222222222, 36.53846153846154, 39.42307692307693, 41.66666666666667, 58.22649572649573, 60.68376068376068, 64.1025641025641, 70.1923076923077, 84.72222222222223, 84.72222222222223, 85.36324786324786, 86.64529914529915, 91.13247863247864, 92.0940170940171, 98.1837606837607, 98.39743589743591, 99.89316239316241, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +241,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

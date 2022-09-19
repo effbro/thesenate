@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Jolee Bindo</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Jolee Bindo</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Jolee Bindo</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Jolee Bindo</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_joleebindo.png" />Alliance Character Data: Jolee Bindo</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/jolee-bindo/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/jolee-bindo/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/jolee-bindo/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/jolee-bindo/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2678 units from the
@@ -288,14 +278,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 145 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_JOLEEBINDO02"><img src="https://game-assets.swgoh.gg/tex.ability_joleebindo_special02.png" style="width: 30px" /> That Looks Pretty Bad</td><td>Add Revive all defeated Jedi allies at 80% Health with Crit Immunity for 5 turns</td><td>129</td><td>89 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 985 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_JOLEEBINDO02"><img src="https://game-assets.swgoh.gg/tex.ability_joleebindo_special02.png" style="width: 30px" /> That Looks Pretty Bad</td><td>Add Revive all defeated Jedi allies at 80% Health with Crit Immunity for 5 turns</td><td>849</td><td>86 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 6, 1, 0, 0, 0, 1, 2, 4, 1, 6, 5, 19, 1, 1, 2, 16, 12, 51, 5, 11, 1, 0 ],
+    y: [ 52, 1, 2, 1, 2, 11, 9, 35, 10, 43, 98, 229, 7, 24, 33, 109, 68, 193, 22, 34, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 4.137931034482759, 4.827586206896552, 4.827586206896552, 4.827586206896552, 4.827586206896552, 5.517241379310345, 6.8965517241379315, 9.655172413793103, 10.344827586206897, 14.482758620689655, 17.93103448275862, 31.03448275862069, 31.724137931034484, 32.41379310344828, 33.793103448275865, 44.827586206896555, 53.10344827586207, 88.27586206896552, 91.72413793103449, 99.31034482758622, 100.00000000000001, 100.00000000000001 ],
+    y: [ 5.279187817258883, 5.380710659898477, 5.583756345177664, 5.685279187817258, 5.888324873096446, 7.005076142131979, 7.918781725888325, 11.472081218274113, 12.487309644670052, 16.85279187817259, 26.80203045685279, 50.05076142131979, 50.76142131979695, 53.1979695431472, 56.5482233502538, 67.61421319796953, 74.51776649746192, 94.11167512690355, 96.34517766497461, 99.79695431472081, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -315,5 +305,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Mon Mothma</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Mon Mothma</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Mon Mothma</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Mon Mothma</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_monmothma.png" />Alliance Character Data: Mon Mothma</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/mon-mothma/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/mon-mothma/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/mon-mothma/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/mon-mothma/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1952 units from the
@@ -303,14 +293,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 134 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td /><td>102</td><td>76 %</td></tr><tr><td data-order="uniqueskill_MONMOTHMA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> This Is Our Rebellion</td><td /><td>101</td><td>75 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 928 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td /><td>526</td><td>57 %</td></tr><tr><td data-order="uniqueskill_MONMOTHMA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> This Is Our Rebellion</td><td /><td>509</td><td>55 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 19, 0, 1, 1, 0, 2, 1, 4, 1, 1, 2, 4, 0, 0, 0, 0, 0, 89, 0, 9, 0, 0 ],
+    y: [ 228, 7, 4, 20, 6, 25, 24, 86, 24, 11, 19, 24, 2, 2, 5, 3, 2, 419, 2, 15, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 14.17910447761194, 14.17910447761194, 14.925373134328357, 15.671641791044774, 15.671641791044774, 17.16417910447761, 17.91044776119403, 20.8955223880597, 21.641791044776117, 22.388059701492534, 23.88059701492537, 26.865671641791042, 26.865671641791042, 26.865671641791042, 26.865671641791042, 26.865671641791042, 26.865671641791042, 93.28358208955224, 93.28358208955224, 100.0, 100.0, 100.0 ],
+    y: [ 24.568965517241377, 25.323275862068964, 25.754310344827584, 27.909482758620687, 28.55603448275862, 31.25, 33.83620689655172, 43.103448275862064, 45.68965517241379, 46.87499999999999, 48.922413793103445, 51.50862068965517, 51.72413793103448, 51.93965517241379, 52.478448275862064, 52.80172413793103, 53.01724137931034, 98.16810344827586, 98.38362068965517, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +320,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: CT-21-0408 "Echo"</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: CT-21-0408 "Echo"</h1></div>
+</style><title>Guild Reports: Alliance Character Data: CT-21-0408 "Echo"</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: CT-21-0408 "Echo"</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_trooperclone_echo.png" />Alliance Character Data: CT-21-0408 "Echo"</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/ct-21-0408-echo/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/ct-21-0408-echo/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/ct-21-0408-echo/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/ct-21-0408-echo/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2176 units from the
@@ -298,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 144 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ct21040802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> Domino Squad</td><td>Fives gains 15% Turn Meter whenever another Clone Trooper or 501st ally takes damage and half that amount for other allies</td><td>109</td><td>76 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1004 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ct21040802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> Domino Squad</td><td>Fives gains 15% Turn Meter whenever another Clone Trooper or 501st ally takes damage and half that amount for other allies</td><td>673</td><td>67 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 1, 2, 2, 3, 1, 1, 5, 8, 0, 0, 0, 2, 1, 35, 10, 73, 0, 0 ],
+    y: [ 31, 2, 4, 4, 4, 7, 25, 86, 42, 7, 37, 90, 4, 7, 9, 23, 16, 277, 58, 267, 4, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.6944444444444444, 2.083333333333333, 3.472222222222222, 5.555555555555555, 6.25, 6.944444444444445, 10.416666666666668, 15.972222222222223, 15.972222222222223, 15.972222222222223, 15.972222222222223, 17.36111111111111, 18.055555555555554, 42.36111111111111, 49.30555555555555, 100.0, 100.0, 100.0 ],
+    y: [ 3.087649402390438, 3.286852589641434, 3.685258964143426, 4.083665338645418, 4.48207171314741, 5.179282868525896, 7.669322709163346, 16.235059760956176, 20.418326693227094, 21.11553784860558, 24.800796812749006, 33.764940239043824, 34.16334661354582, 34.8605577689243, 35.756972111553786, 38.04780876494024, 39.64143426294821, 67.23107569721115, 73.00796812749003, 99.601593625498, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -325,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

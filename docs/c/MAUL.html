@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Darth Maul</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Darth Maul</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Darth Maul</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Darth Maul</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_maul.png" />Alliance Character Data: Darth Maul</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/darth-maul/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/darth-maul/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/darth-maul/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/darth-maul/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2175 units from the
@@ -323,14 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 143 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MAUL"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Dancing Shadows</td><td>Sith allies gain Stealth for 1 turn on Evade, can't be Critically Hit while Stealthed, gain Advantage for 2 turns whenever Stealth expires, and gain all "on Evade" bonuses at the start of each encounter</td><td>65</td><td>45 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 986 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MAUL"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Dancing Shadows</td><td>Sith allies gain Stealth for 1 turn on Evade, can't be Critically Hit while Stealthed, gain Advantage for 2 turns whenever Stealth expires, and gain all "on Evade" bonuses at the start of each encounter</td><td>296</td><td>30 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 8, 0, 0, 2, 0, 2, 0, 24, 5, 3, 4, 1, 0, 0, 0, 1, 86, 7, 0, 0, 0, 0 ],
+    y: [ 66, 3, 0, 10, 12, 22, 26, 228, 41, 34, 86, 71, 3, 3, 1, 4, 342, 33, 1, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.594405594405594, 5.594405594405594, 5.594405594405594, 6.9930069930069925, 6.9930069930069925, 8.391608391608392, 8.391608391608392, 25.174825174825173, 28.67132867132867, 30.769230769230766, 33.56643356643357, 34.26573426573427, 34.26573426573427, 34.26573426573427, 34.26573426573427, 34.96503496503497, 95.10489510489509, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 6.693711967545639, 6.997971602434077, 6.997971602434077, 8.012170385395537, 9.22920892494929, 11.460446247464503, 14.0973630831643, 37.2210953346856, 41.37931034482759, 44.827586206896555, 53.54969574036512, 60.750507099391484, 61.05476673427992, 61.35902636916836, 61.46044624746451, 61.8661257606491, 96.55172413793105, 99.89858012170387, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -350,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

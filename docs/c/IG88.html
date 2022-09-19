@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: IG-88</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: IG-88</h1></div>
+</style><title>Guild Reports: Alliance Character Data: IG-88</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: IG-88</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_ig88.png" />Alliance Character Data: IG-88</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/ig-88/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/ig-88/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/ig-88/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/ig-88/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1993 units from the
@@ -338,14 +328,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 145 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG8801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Adaptive Aim Algorithm</td><td>While IG-88 is active, Target Locked enemies can't recover Health or Protection</td><td>52</td><td>36 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1012 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG8801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Adaptive Aim Algorithm</td><td>While IG-88 is active, Target Locked enemies can't recover Health or Protection</td><td>314</td><td>31 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 0, 0, 2, 1, 1, 2, 8, 2, 0, 7, 5, 0, 0, 0, 1, 0, 96, 0, 7, 8, 0 ],
+    y: [ 44, 2, 4, 5, 5, 12, 31, 119, 39, 30, 103, 93, 5, 8, 3, 5, 3, 464, 9, 16, 11, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.4482758620689653, 3.4482758620689653, 3.4482758620689653, 4.827586206896552, 5.517241379310345, 6.206896551724139, 7.586206896551725, 13.103448275862071, 14.482758620689658, 14.482758620689658, 19.31034482758621, 22.758620689655174, 22.758620689655174, 22.758620689655174, 22.758620689655174, 23.448275862068968, 23.448275862068968, 89.65517241379311, 89.65517241379311, 94.48275862068967, 100.00000000000001, 100.00000000000001 ],
+    y: [ 4.3478260869565215, 4.545454545454545, 4.940711462450593, 5.434782608695652, 5.928853754940712, 7.1146245059288535, 10.17786561264822, 21.936758893280633, 25.790513833992094, 28.75494071146245, 38.93280632411067, 48.12252964426877, 48.616600790513836, 49.40711462450593, 49.70355731225297, 50.19762845849803, 50.49407114624507, 96.34387351778656, 97.23320158102767, 98.81422924901186, 99.90118577075098, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -365,5 +355,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:51 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

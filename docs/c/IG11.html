@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: IG-11</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: IG-11</h1></div>
+</style><title>Guild Reports: Alliance Character Data: IG-11</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: IG-11</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_ig11_nurse.png" />Alliance Character Data: IG-11</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/ig-11/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/ig-11/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/ig-11/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/ig-11/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1389 units from the
@@ -352,14 +342,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 138 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG1101"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_ig11.png" style="width: 30px" /> Child's Favor</td><td /><td>69</td><td>50 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 924 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG1101"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_ig11.png" style="width: 30px" /> Child's Favor</td><td /><td>302</td><td>33 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 7, 2, 0, 2, 1, 1, 7, 26, 17, 4, 3, 10, 0, 3, 2, 14, 3, 21, 4, 7, 4, 0 ],
+    y: [ 88, 7, 0, 28, 14, 21, 82, 169, 168, 89, 30, 90, 3, 11, 6, 34, 9, 52, 5, 14, 4, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 5.072463768115942, 6.521739130434783, 6.521739130434783, 7.971014492753624, 8.695652173913045, 9.420289855072465, 14.492753623188406, 33.333333333333336, 45.652173913043484, 48.550724637681164, 50.72463768115942, 57.971014492753625, 57.971014492753625, 60.14492753623188, 61.594202898550726, 71.73913043478261, 73.91304347826087, 89.1304347826087, 92.02898550724639, 97.10144927536233, 100.00000000000001, 100.00000000000001 ],
+    y: [ 9.523809523809524, 10.281385281385282, 10.281385281385282, 13.311688311688311, 14.826839826839826, 17.0995670995671, 25.974025974025977, 44.26406926406926, 62.44588744588745, 72.07792207792208, 75.32467532467533, 85.06493506493507, 85.3896103896104, 86.58008658008659, 87.22943722943724, 90.90909090909092, 91.8831168831169, 97.51082251082252, 98.05194805194806, 99.56709956709958, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -379,5 +369,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

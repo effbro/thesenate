@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Old Daka</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Old Daka</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Old Daka</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Old Daka</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_daka.png" />Alliance Character Data: Old Daka</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/old-daka/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/old-daka/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/old-daka/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/old-daka/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 2114 units from the
@@ -337,14 +327,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 144 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DAKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Serve Again</td><td>When another ally is Revived while Old Daka is active, Old Daka gains +10% Max Health (stacking) until the end of the encounter</td><td>82</td><td>57 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1009 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DAKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Serve Again</td><td>When another ally is Revived while Old Daka is active, Old Daka gains +10% Max Health (stacking) until the end of the encounter</td><td>489</td><td>48 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 10, 2, 0, 3, 0, 2, 1, 21, 12, 11, 5, 15, 0, 0, 1, 2, 11, 26, 4, 11, 7, 0 ],
+    y: [ 62, 6, 12, 23, 8, 13, 32, 138, 124, 116, 49, 156, 3, 6, 14, 26, 37, 126, 16, 31, 10, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.944444444444445, 8.333333333333334, 8.333333333333334, 10.416666666666668, 10.416666666666668, 11.805555555555557, 12.500000000000002, 27.083333333333336, 35.41666666666667, 43.05555555555556, 46.52777777777778, 56.94444444444444, 56.94444444444444, 56.94444444444444, 57.638888888888886, 59.02777777777777, 66.66666666666666, 84.72222222222221, 87.49999999999999, 95.13888888888887, 99.99999999999999, 99.99999999999999 ],
+    y: [ 6.144697720515362, 6.739345887016849, 7.928642220019822, 10.20812685827552, 11.000991080277503, 12.289395441030724, 15.460852329038651, 29.137760158572846, 41.427155599603566, 52.923686818632305, 57.779980178394446, 73.2408325074331, 73.53815659068384, 74.13280475718533, 75.5203171456888, 78.09712586719523, 81.7641228939544, 94.25173439048561, 95.83746283448957, 98.90981169474725, 99.90089197224972, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -364,5 +354,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

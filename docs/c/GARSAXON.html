@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,14 +65,11 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>BRG Alliance Guild Reports: Alliance Character Data: Gar Saxon</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Character Data: Gar Saxon</h1></div>
+</style><title>Guild Reports: Alliance Character Data: Gar Saxon</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Alliance Character Data: Gar Saxon</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Alliance</a> |
-<a href="../alliance/characters.html">Characters</a> |
-
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
 <br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_gar_saxon.png" />Alliance Character Data: Gar Saxon</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/gar-saxon/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/gar-saxon/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/gar-saxon/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/gar-saxon/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 799 units from the
@@ -254,14 +244,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 130 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GARSAXON"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Mandalorian Retaliation</td><td>Whenever an Empire ally uses a Basic attack, they recover 5% Health</td><td>6</td><td>5 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 946 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GARSAXON"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Mandalorian Retaliation</td><td>Whenever an Empire ally uses a Basic attack, they recover 5% Health</td><td>21</td><td>2 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 42, 3, 6, 6, 2, 0, 19, 20, 1, 0, 5, 9, 1, 0, 3, 4, 1, 6, 1, 1, 0, 0 ],
+    y: [ 352, 21, 35, 44, 33, 26, 150, 176, 23, 2, 23, 34, 1, 1, 5, 7, 1, 10, 1, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 32.30769230769231, 34.61538461538461, 39.230769230769226, 43.84615384615384, 45.38461538461538, 45.38461538461538, 60.0, 75.38461538461539, 76.15384615384616, 76.15384615384616, 80.0, 86.92307692307692, 87.6923076923077, 87.6923076923077, 90.0, 93.07692307692308, 93.84615384615385, 98.46153846153847, 99.23076923076924, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 37.2093023255814, 39.4291754756871, 43.12896405919662, 47.780126849894295, 51.26849894291755, 54.01691331923891, 69.87315010570825, 88.47780126849895, 90.90909090909092, 91.12050739957718, 93.55179704016915, 97.14587737843553, 97.25158562367866, 97.3572938689218, 97.88583509513745, 98.62579281183936, 98.7315010570825, 99.78858350951378, 99.89429175475692, 100.00000000000006, 100.00000000000006, 100.00000000000006 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -281,5 +271,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-19 17:11:50 +0000</font>
+<font size="-2">Generated 2022-09-19 19:32:17 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
