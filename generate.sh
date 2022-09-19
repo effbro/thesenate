@@ -38,8 +38,8 @@ for ((i = 1; i < $#guilds; i++)) ; do
 	args=("${(@s/ /)guilds[i]}")
 	
 	# now build the guild we just fetched
-	echo "~/bin/swgoh-tool --brg --guild $args[1].json --site docs"
-	time ~/bin/swgoh-tool --brg --guild $args[1].json --site docs &
+	echo "~/bin/swgoh-tool --guild $args[1].json --site docs"
+	time ~/bin/swgoh-tool --guild $args[1].json --site docs &
 	
 	# and fetch the next one
 	
@@ -57,13 +57,13 @@ done
 
 # finish the pipeline
 args=("${(@s/ /)guilds[$#guilds]}")
-echo "~/bin/swgoh-tool --brg --guild $args[1].json --site docs"
-time ~/bin/swgoh-tool --brg --guild $args[1].json --site docs &
+echo "~/bin/swgoh-tool --guild $args[1].json --site docs"
+time ~/bin/swgoh-tool --guild $args[1].json --site docs &
 
 echo "==============="
 echo "ALLIANCE"
 
-time ~/bin/swgoh-tool --brg --alliance docs *.json
+time ~/bin/swgoh-tool --alliance docs *.json
 
 wait
 
