@@ -1,0 +1,81 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><style type="text/css">
+body {
+ background-image: url("../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>    <script>
+    $(document).ready( function () {
+        $('#data').DataTable({
+        "paging":   false,
+        "info":     false,
+        
+        
+        
+        
+        
+        });
+    } );
+    </script><script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="../j/graph.js"></script><script>
+c1 = new Chart("alliance-gp-stats.json", "alliance", "total")
+c1.id = "alliance-gp-chart"
+c1.title = "Alliance Total GP"
+c1.tightScale = true
+c1.round = 100000000
+c1.height = 400
+c1.display()
+
+c3 = new Chart("alliance-player-counts.json", "alliance", "players")
+c3.id = "alliance-player-chart"
+c3.title = "Alliance Total Players"
+c3.tightScale = true
+c3.round = 100
+c3.height = 400
+c3.display()
+
+c2 = new Chart("alliance-guilds-gp-stats.json", null, "total")
+c2.id = "guild-gp-chart"
+c2.title = "Guild Total GP"
+c2.tightScale = true
+c2.round = 10000000
+c2.display()
+</script><title>BRG Alliance Guild Reports: Alliance Guild Index</title>
+<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Guild Index</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="index.html">Alliance</a> |
+<a href="characters.html">Characters</a> |
+
+<div style="float:right;"><a href="../r">Resources</a></div>
+<a href="players.html">Player</a> | <a href="characters.html">Characters</a> | <a href="history.html">History</a> | <a href="transfers.html">Transfers</a>
+</div>
+<br/><table id="data"><thead><tr><th>Guild</th><th>Members</th><th>Units GP</th><th>Ships GP</th><th>Total GP</th><th>GLs</th></tr></thead><tr><td data-order="THE SENATE ΞScarifΞ"><a href="../guild/scarif/index.html">THE SENATE ΞScarifΞ</a></td><td data-order="49"><a href="../player/scarif.html">49</a></td><td data-order="201315865">201m</td><td data-order="144350410">144m</td><td data-order="345666275">345m</td><td data-order="164">164</td></tr><tr><td data-order="THE SENATE ΞKorribanΞ"><a href="../guild/korriban/index.html">THE SENATE ΞKorribanΞ</a></td><td data-order="49"><a href="../player/korriban.html">49</a></td><td data-order="107262699">107m</td><td data-order="80618447">80m</td><td data-order="187881146">187m</td><td data-order="33">33</td></tr><tr><td data-order="THE SENATE ΞMandaløreΞ"><a href="../guild/mandalore/index.html">THE SENATE ΞMandaløreΞ</a></td><td data-order="48"><a href="../player/mandalore.html">48</a></td><td data-order="255924871">255m</td><td data-order="178960751">178m</td><td data-order="434885622">434m</td><td data-order="271">271</td></tr><tfoot><tr><td>3</td><td>146</td><td>564m</td><td>403m</td><td>968m</td><td>468</td></tr></tfoot></table><div id="alliance-gp-chart"></div><div id="alliance-player-chart"></div><div id="guild-gp-chart"></div><br/>
+<font size="-2">Generated 2022-09-19 17:11:47 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
