@@ -1,1 +1,1 @@
-{"y":"count","dates":["09\/19\/2022"],"series":[{"name":"The senate ΞCoruscantΞ","id":"coruscant","values":{"Rey":[6],"total":[46],"Jedi Master Luke Skywalker":[10],"Lord Vader":[0],"Supreme Leader Kylo Ren":[10],"Sith Eternal Emperor":[10],"Jedi Master Kenobi":[10]}}]}
+{"y":"count","dates":["09\/19\/2022","09\/24\/2022"],"series":[{"name":"The senate ΞCoruscantΞ","id":"coruscant","values":{"Rey":[6,6],"total":[46,47],"Jedi Master Luke Skywalker":[10,10],"Lord Vader":[0,0],"Supreme Leader Kylo Ren":[10,10],"Sith Eternal Emperor":[10,11],"Jedi Master Kenobi":[10,10]}}]}
