@@ -239,14 +239,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1017 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HANSOLO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Shoots First</td><td>+10% Critical Chance and the first time each turn Han uses his Basic attack, he attacks again dealing 50% less damage</td><td>808</td><td>79 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HANSOLO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Shoots First</td><td>+10% Critical Chance and the first time each turn Han uses his Basic attack, he attacks again dealing 50% less damage</td><td>36</td><td>72 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 29, 1, 2, 6, 16, 14, 40, 21, 27, 58, 50, 81, 8, 9, 15, 61, 21, 74, 344, 61, 78, 1 ],
+    y: [ 0, 0, 0, 1, 1, 0, 3, 3, 2, 4, 3, 5, 1, 2, 0, 5, 2, 4, 12, 1, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.8515240904621435, 2.949852507374631, 3.1465093411996063, 3.7364798426745325, 5.309734513274336, 6.686332350049163, 10.619469026548671, 12.684365781710913, 15.33923303834808, 21.04228121927237, 25.958702064896755, 33.92330383480826, 34.70993117010816, 35.594886922320555, 37.06981317600787, 43.06784660766962, 45.13274336283187, 52.40904621435595, 86.23402163225173, 92.23205506391348, 99.90167158308752, 100.00000000000001 ],
+    y: [ 0.0, 0.0, 0.0, 2.0, 4.0, 4.0, 10.0, 16.0, 20.0, 28.0, 34.0, 44.0, 46.0, 50.0, 50.0, 60.0, 64.0, 72.0, 96.0, 98.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -266,5 +266,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-09-24 08:06:30 +0000</font>
+<font size="-2">Generated 2022-10-29 11:28:55 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
