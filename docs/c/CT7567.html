@@ -224,14 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_REX01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> Captain of the 501st</td><td>Other 501st Clone Trooper allies reduce their own ability cooldowns by 1 at the start of each of their turns</td><td>42</td><td>84 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_REX01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> Captain of the 501st</td><td>Other 501st Clone Trooper allies reduce their own ability cooldowns by 1 at the start of each of their turns</td><td>43</td><td>86 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 1, 1, 2, 1, 1, 1, 10, 0, 3, 0, 2, 1, 22, 0, 5, 0, 0 ],
+    y: [ 0, 0, 0, 0, 0, 1, 0, 2, 0, 2, 1, 10, 0, 3, 1, 0, 2, 23, 0, 5, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 4.0, 8.0, 10.0, 12.0, 14.0, 34.0, 34.0, 40.0, 40.0, 44.0, 46.0, 90.0, 90.0, 100.0, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 6.0, 6.0, 10.0, 12.0, 32.0, 32.0, 38.0, 40.0, 40.0, 44.0, 90.0, 90.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-10-29 11:28:55 +0000</font>
+<font size="-2">Generated 2022-11-04 11:46:51 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

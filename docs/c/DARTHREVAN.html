@@ -224,14 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 34 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> Lord of the Sith</td><td>Sith Empire allies are immune to Turn Meter reduction while they are debuffed</td><td>33</td><td>97 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Conqueror</td><td>Enemies can't assist or attack again if their attack is targeting Darth Revan</td><td>32</td><td>94 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Villain</td><td>When Darth Revan's Health falls below 50%, it is equalized with the other healthiest ally</td><td>31</td><td>91 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 35 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> Lord of the Sith</td><td>Sith Empire allies are immune to Turn Meter reduction while they are debuffed</td><td>33</td><td>94 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Conqueror</td><td>Enemies can't assist or attack again if their attack is targeting Darth Revan</td><td>32</td><td>91 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Villain</td><td>When Darth Revan's Health falls below 50%, it is equalized with the other healthiest ally</td><td>31</td><td>89 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 6, 1, 1, 0, 1, 1, 14, 2, 3, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 6, 1, 1, 0, 1, 1, 14, 2, 3, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.941176470588235, 2.941176470588235, 2.941176470588235, 2.941176470588235, 2.941176470588235, 2.941176470588235, 2.941176470588235, 5.88235294117647, 5.88235294117647, 8.823529411764705, 14.705882352941174, 32.35294117647059, 35.29411764705882, 38.23529411764705, 38.23529411764705, 41.17647058823528, 44.117647058823515, 85.29411764705881, 91.17647058823528, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 2.857142857142857, 2.857142857142857, 2.857142857142857, 2.857142857142857, 2.857142857142857, 2.857142857142857, 2.857142857142857, 5.714285714285714, 5.714285714285714, 11.428571428571429, 17.142857142857142, 34.285714285714285, 37.14285714285714, 39.99999999999999, 39.99999999999999, 42.85714285714285, 45.7142857142857, 85.7142857142857, 91.4285714285714, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-10-29 11:28:55 +0000</font>
+<font size="-2">Generated 2022-11-04 11:46:51 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
