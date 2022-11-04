@@ -221,12 +221,12 @@ Plotly.newPlot('mc-0', traces, layout)
 }
 </script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ENFYSNEST01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_enfys.png" style="width: 30px" /> Fighting Instinct</td><td>Add Taunt Ignore, add 2% Health Steal (stacking) when enemy loses buff or debuff</td><td>12</td><td>29 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 13, 0, 0, 0, 2, 3, 1, 1, 5, 2, 5, 3, 0, 0, 0, 1, 1, 5, 0, 0, 0, 0 ],
+    y: [ 13, 0, 0, 0, 2, 3, 1, 1, 5, 1, 6, 3, 0, 0, 0, 1, 1, 5, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 30.952380952380953, 30.952380952380953, 30.952380952380953, 30.952380952380953, 35.714285714285715, 42.85714285714286, 45.23809523809524, 47.61904761904762, 59.523809523809526, 64.28571428571429, 76.19047619047619, 83.33333333333333, 83.33333333333333, 83.33333333333333, 83.33333333333333, 85.71428571428571, 88.09523809523809, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 30.952380952380953, 30.952380952380953, 30.952380952380953, 30.952380952380953, 35.714285714285715, 42.85714285714286, 45.23809523809524, 47.61904761904762, 59.523809523809526, 61.904761904761905, 76.19047619047619, 83.33333333333333, 83.33333333333333, 83.33333333333333, 83.33333333333333, 85.71428571428571, 88.09523809523809, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -246,5 +246,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-04 11:46:51 +0000</font>
+<font size="-2">Generated 2022-11-04 18:26:15 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
