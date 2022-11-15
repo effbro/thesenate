@@ -303,14 +303,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_ASAJVENTRESS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Nightsister Swiftness</td><td>+25% Turn Meter Reduction Chance, +10% Turn Meter Reduction, Nightsisters gain 50% Turn Meter when they fall below 100% Health</td><td>8</td><td>16 %</td></tr><tr><td data-order="uniqueskill_ASAJVENTRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Rampage</td><td>+75% Turn Meter Gain Chance, +5% Offense, +5% Critical Chance, and when any ally or enemy is defeated Asajj gains 5% Max Health until the end of the encounter</td><td>17</td><td>34 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_ASAJVENTRESS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Nightsister Swiftness</td><td>+25% Turn Meter Reduction Chance, +10% Turn Meter Reduction, Nightsisters gain 50% Turn Meter when they fall below 100% Health</td><td>8</td><td>17 %</td></tr><tr><td data-order="uniqueskill_ASAJVENTRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Rampage</td><td>+75% Turn Meter Gain Chance, +5% Offense, +5% Critical Chance, and when any ally or enemy is defeated Asajj gains 5% Max Health until the end of the encounter</td><td>16</td><td>33 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 1, 2, 4, 0, 0, 10, 29, 0, 0, 0, 2, 1, 1, 0, 0, 0, 0 ],
+    y: [ 0, 0, 0, 0, 0, 1, 2, 4, 0, 0, 9, 28, 0, 0, 0, 2, 1, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 6.0, 14.0, 14.0, 14.0, 34.0, 92.0, 92.0, 92.0, 92.0, 96.0, 98.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.083333333333333, 6.249999999999999, 14.583333333333332, 14.583333333333332, 14.583333333333332, 33.33333333333333, 91.66666666666666, 91.66666666666666, 91.66666666666666, 91.66666666666666, 95.83333333333333, 97.91666666666666, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +330,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-04 18:26:15 +0000</font>
+<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

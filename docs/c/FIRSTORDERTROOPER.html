@@ -303,14 +303,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 43 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Return Fire</td><td>Whenever First Order Stormtrooper uses any Ability he has a 50% chance to call a random ally to Assist, dealing 50% damage unless they are First Order, then grants them Advantage for 2 turns if they were First Order</td><td>12</td><td>28 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 41 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Return Fire</td><td>Whenever First Order Stormtrooper uses any Ability he has a 50% chance to call a random ally to Assist, dealing 50% damage unless they are First Order, then grants them Advantage for 2 turns if they were First Order</td><td>11</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 2, 0, 0, 0, 0, 1, 2, 20, 1, 0, 1, 1, 0, 0, 0, 1, 0, 14, 0, 0, 0, 0 ],
+    y: [ 2, 0, 0, 0, 0, 1, 2, 19, 0, 1, 1, 0, 0, 0, 0, 1, 0, 14, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 4.651162790697675, 4.651162790697675, 4.651162790697675, 4.651162790697675, 4.651162790697675, 6.976744186046512, 11.627906976744185, 58.13953488372093, 60.46511627906976, 60.46511627906976, 62.790697674418595, 65.11627906976743, 65.11627906976743, 65.11627906976743, 65.11627906976743, 67.44186046511626, 67.44186046511626, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 4.878048780487805, 4.878048780487805, 4.878048780487805, 4.878048780487805, 4.878048780487805, 7.317073170731707, 12.195121951219512, 58.53658536585366, 58.53658536585366, 60.97560975609756, 63.41463414634146, 63.41463414634146, 63.41463414634146, 63.41463414634146, 63.41463414634146, 65.85365853658537, 65.85365853658537, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +330,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-04 18:26:15 +0000</font>
+<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
