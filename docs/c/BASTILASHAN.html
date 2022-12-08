@@ -224,14 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BASTILASHAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Initiative</td><td>Add 1 Turn Taunt on Jedi Tank allies at start of encounter, add +150% Tenacity with Protection Up </td><td>14</td><td>29 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BASTILASHAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Initiative</td><td>At the start of the battle, Jedi allies gain 15% Turn Meter and Protection Up (200%, can't be dispelled), and Jedi Tank allies Taunt for 1 turn. While Jedi allies have Protection Up, they have +150% Tenacity and deal 35% more damage.</td><td>12</td><td>25 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 0, 1, 5, 2, 1, 8, 18, 0, 1, 0, 4, 2, 5, 0, 0, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 0, 1, 9, 2, 1, 8, 15, 0, 1, 0, 3, 2, 5, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 4.166666666666666, 14.583333333333334, 18.75, 20.833333333333332, 37.5, 75.0, 75.0, 77.08333333333333, 77.08333333333333, 85.41666666666666, 89.58333333333333, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 4.166666666666666, 22.916666666666664, 27.08333333333333, 29.16666666666666, 45.83333333333333, 77.08333333333333, 77.08333333333333, 79.16666666666666, 79.16666666666666, 85.41666666666666, 89.58333333333333, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -229,14 +229,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 34 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_AMILYNHOLDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_uniqueability.png" style="width: 30px" /> Quiet Confidence</td><td>When another Resistance ally loses Foresight, Amilyn Holdo Recovers 10% Health. While Amilyn Holdo doesn't have Taunt, all other Resistance allies have +20% Critical Avoidance.</td><td>1</td><td>3 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 36 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_AMILYNHOLDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_uniqueability.png" style="width: 30px" /> Quiet Confidence</td><td>When another Resistance ally loses Foresight, Amilyn Holdo gains Taunt for 1 turn and Recovers 10% Health. While Amilyn Holdo doesn't have Taunt, she has +50 Speed and all other Resistance allies have +20% Critical Avoidance.</td><td>1</td><td>3 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 24, 2, 0, 2, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
+    y: [ 24, 4, 0, 2, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 70.58823529411765, 76.47058823529412, 76.47058823529412, 82.35294117647058, 82.35294117647058, 82.35294117647058, 82.35294117647058, 85.29411764705881, 88.23529411764704, 88.23529411764704, 91.17647058823528, 91.17647058823528, 91.17647058823528, 91.17647058823528, 91.17647058823528, 91.17647058823528, 91.17647058823528, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 66.66666666666666, 77.77777777777777, 77.77777777777777, 83.33333333333333, 83.33333333333333, 83.33333333333333, 83.33333333333333, 83.33333333333333, 88.88888888888889, 88.88888888888889, 91.66666666666666, 91.66666666666666, 91.66666666666666, 91.66666666666666, 91.66666666666666, 91.66666666666666, 91.66666666666666, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -256,5 +256,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

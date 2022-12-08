@@ -313,14 +313,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PHASMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Fire at Will</td><td>-15% Damage Penalty, triple Assist chance for First Order, and First Order allies gain Advantage for 2 turns at the start of each encounter, can't be Critically Hit while they have Advantage, and gain 20% Potency</td><td>16</td><td>33 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PHASMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Fire at Will</td><td>First Order allies have +20% Potency, gain Advantage for 2 turns at the start of each encounter, and can't be critically hit while they have Advantage. Whenever an ally attacks, they have a 20% chance to call a random ally to assist. This chance is tripled if the attacking ally is First Order. If that ally had Advantage, they regain it for 2 turns.
+
+[e7e7e7]While in Territory Wars: Additional +10% chance to call a random ally to assist. Captain Phasma has +100 Speed. Whenever a First Order ally attacks out of turn, First Order allies recover 5% Health and Protection. Whenever a First Order ally gains Advantage, they also gain 10% Offense (stacking) for the rest of battle and all First Order allies gain 7.5% Turn Meter.</td><td>18</td><td>38 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 0, 0, 1, 0, 1, 4, 20, 1, 1, 0, 0, 1, 0, 0, 1, 0, 15, 0, 0, 0, 0 ],
+    y: [ 2, 0, 0, 1, 0, 1, 4, 20, 1, 0, 2, 0, 1, 0, 0, 1, 0, 15, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.25, 6.25, 6.25, 8.333333333333332, 8.333333333333332, 10.416666666666664, 18.749999999999996, 60.41666666666667, 62.50000000000001, 64.58333333333334, 64.58333333333334, 64.58333333333334, 66.66666666666667, 66.66666666666667, 66.66666666666667, 68.75, 68.75, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 4.166666666666666, 4.166666666666666, 4.166666666666666, 6.249999999999999, 6.249999999999999, 8.333333333333332, 16.666666666666664, 58.333333333333336, 60.41666666666667, 60.41666666666667, 64.58333333333334, 64.58333333333334, 66.66666666666667, 66.66666666666667, 66.66666666666667, 68.75, 68.75, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +342,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

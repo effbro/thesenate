@@ -283,14 +283,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_KYLORENUNMASKED"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Merciless Pursuit</td><td>+15% Critical Damage, +5 Speed, +5% Turn Meter Gain, and when a First Order ally gains a status effect they recover 5% Health and 5% Protection</td><td>19</td><td>40 %</td></tr><tr><td data-order="uniqueskill_KYLORENUNMASKED01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Scarred</td><td>Kylo gains Taunt for 1 turn at the start of each encounter and has double Counter Chance while Taunting</td><td>21</td><td>44 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_KYLORENUNMASKED"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Merciless Pursuit</td><td>First Order allies have +40% Critical Damage and +30 Speed. When a First Order ally scores a Critical Hit, they gain 20% Turn Meter. When a First Order ally gains a status effect, they recover 5% Health and 5% Protection.</td><td>21</td><td>44 %</td></tr><tr><td data-order="uniqueskill_KYLORENUNMASKED01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Scarred</td><td>When Kylo takes damage, he recovers 8% Health and a random First Order ally who doesn't have it gains Advantage for 2 turns. Kylo has +50% Counter Chance, doubled while he has Taunt. Kylo takes reduced damage from Percent Health damage effects and gains Taunt for 1 turn at the start of each encounter.</td><td>22</td><td>46 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 1, 0, 0, 0, 2, 16, 4, 2, 1, 1, 0, 0, 0, 4, 0, 1, 0, 16, 0, 0 ],
+    y: [ 0, 0, 1, 0, 0, 0, 1, 16, 4, 3, 1, 1, 0, 0, 0, 4, 0, 0, 0, 17, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 6.249999999999999, 39.58333333333333, 47.91666666666666, 52.08333333333332, 54.16666666666666, 56.24999999999999, 56.24999999999999, 56.24999999999999, 56.24999999999999, 64.58333333333333, 64.58333333333333, 66.66666666666666, 66.66666666666666, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 0.0, 0.0, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 4.166666666666666, 37.49999999999999, 45.83333333333333, 52.08333333333333, 54.166666666666664, 56.25, 56.25, 56.25, 56.25, 64.58333333333333, 64.58333333333333, 64.58333333333333, 64.58333333333333, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -310,5 +310,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

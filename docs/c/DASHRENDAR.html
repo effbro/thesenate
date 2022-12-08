@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2021/11/23/swgoh-best-mods-for-dash-rendar/">https://gaming-fans.com/2021/11/23/swgoh-best-mods-for-dash-rendar/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1330 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -387,14 +387,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DASHRENDAR"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hotshot.png" style="width: 30px" /> Hotshot</td><td /><td>3</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DASHRENDAR"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hotshot.png" style="width: 30px" /> Hotshot</td><td>Scoundrel allies gain 20% Max Health, 20% Potency, and 20% Offense. Whenever a Prepared ally scores a critical hit, all Prepared allies gain 2% Turn Meter.</td><td>4</td><td>9 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 1, 1, 2, 7, 11, 7, 3, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0 ],
+    y: [ 3, 1, 1, 2, 9, 10, 8, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 7.142857142857142, 9.523809523809524, 11.904761904761905, 16.666666666666668, 33.33333333333333, 59.52380952380952, 76.19047619047618, 83.33333333333331, 88.09523809523807, 88.09523809523807, 90.47619047619045, 90.47619047619045, 90.47619047619045, 90.47619047619045, 90.47619047619045, 90.47619047619045, 90.47619047619045, 92.85714285714283, 92.85714285714283, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
+    y: [ 6.8181818181818175, 9.09090909090909, 11.363636363636363, 15.90909090909091, 36.36363636363637, 59.09090909090909, 77.27272727272728, 79.54545454545455, 84.0909090909091, 86.36363636363636, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 90.90909090909089, 90.90909090909089, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -414,5 +414,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

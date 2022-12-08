@@ -234,14 +234,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_juhani01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Cathar Resilience</td><td>When Juhani drops below 100% Health, she recovers 5% Protection for each active Jedi or Old Republic ally, then gains Offense Up and Health Steal Up for 2 turns.</td><td>5</td><td>11 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_juhani01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Cathar Resilience</td><td>Juhani recovers 20% of her Health at the beginning of each of her turns. While Taunting, Juhani has +35% counter chance.
+
+When Juhani falls below 100% Health, she recovers 5% Protection for each active Jedi or Old Republic ally, then gains Health Steal Up, Offense Up, and Stealth for 2 turns. If Juhani had Taunt when this condition was met, dispel Taunt.
+
+[e7e7e7]While in Territory Wars: At the start of battle, Juhani Taunts for 2 turns. Then Juhani, a random Dark Side Unaligned Force User ally (excluding Empire, First Order, and Galactic Legends), and a random Light Side Unaligned Force User ally (excluding Galactic Legends) gain Redeemed until Juhani is defeated, which can't be copied, dispelled, or prevented.
+
+Redeemed: +35 Speed; whenever an ally with Redeemed uses an ability during their turn, all other allies with Redeemed assist; whenever an ally with Redeemed gains a buff, dispel all debuffs on allies with Redeemed; whenever an ally with Redeemed is damaged by an enemy, all allies with Redeemed gain 15% Turn Meter; whenever an ally with Redeemed is inflicted with a debuff, all allies with Redeemed recover 15% Protection</td><td>5</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 6, 0, 0, 0, 0, 0, 6, 9, 4, 3, 6, 9, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    y: [ 3, 0, 0, 0, 1, 1, 7, 10, 2, 3, 4, 10, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 13.636363636363635, 13.636363636363635, 13.636363636363635, 13.636363636363635, 13.636363636363635, 13.636363636363635, 27.27272727272727, 47.72727272727273, 56.81818181818182, 63.63636363636364, 77.27272727272728, 97.72727272727273, 97.72727272727273, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 7.142857142857142, 7.142857142857142, 7.142857142857142, 7.142857142857142, 9.523809523809524, 11.904761904761905, 28.57142857142857, 52.38095238095238, 57.14285714285714, 64.28571428571428, 73.8095238095238, 97.6190476190476, 97.6190476190476, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +267,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

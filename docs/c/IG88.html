@@ -328,14 +328,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG8801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Adaptive Aim Algorithm</td><td>While IG-88 is active, Target Locked enemies can't recover Health or Protection</td><td>5</td><td>10 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IG8801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Adaptive Aim Algorithm</td><td>IG-88 has +45% Critical Damage and recovers 50% Health whenever he damages a Target Locked enemy. In addition, he has +20% Offense for each debuffed enemy and +50% Evasion against Target Locked enemies. While IG-88 is active, Target Locked enemies can't recover Health or Protection.</td><td>6</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 0, 0, 2, 0, 1, 0, 5, 3, 1, 7, 4, 1, 0, 0, 0, 0, 18, 0, 1, 0, 0 ],
+    y: [ 3, 1, 0, 2, 0, 0, 0, 7, 2, 2, 4, 7, 0, 0, 0, 0, 1, 18, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 10.416666666666668, 10.416666666666668, 10.416666666666668, 14.583333333333334, 14.583333333333334, 16.666666666666668, 16.666666666666668, 27.083333333333336, 33.333333333333336, 35.41666666666667, 50.00000000000001, 58.33333333333334, 60.41666666666668, 60.41666666666668, 60.41666666666668, 60.41666666666668, 60.41666666666668, 97.91666666666669, 97.91666666666669, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 6.25, 8.333333333333332, 8.333333333333332, 12.499999999999998, 12.499999999999998, 12.499999999999998, 12.499999999999998, 27.083333333333332, 31.25, 35.416666666666664, 43.75, 58.333333333333336, 58.333333333333336, 58.333333333333336, 58.333333333333336, 58.333333333333336, 60.41666666666667, 97.91666666666667, 97.91666666666667, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -355,5 +355,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

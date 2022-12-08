@@ -219,14 +219,22 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>Wat takes a bonus turn instead</td><td>34</td><td>76 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>At the start of battle, Wat gains a bonus turn and access to the following Tech in the form of abilities. When Wat uses a piece of Tech, the target other ally gains its effects until defeated or the end of battle.
+
+The cooldown of each piece of Tech is set to max and can't be reduced if all allies have Tech or if it is active on an ally. Tech can't be copied, dispelled, or prevented, and an ally can only have one piece of Tech.
+
+Chiewab Medpac: Recover 5% Health and Protection at the start of every character's turn, and 5% bonus Protection if this character is a Separatist
+
+Baktoid Shield Generator: At the start of turn, recover 30% Protection and dispel own debuffs; Tanks Taunt while they have Protection
+
+BlasTech Weapon Mod: Gain 15% Turn Meter at the start of each enemy's turn; enemies defeated by this character can't be revived</td><td>36</td><td>77 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 4, 0, 1, 0, 0, 0, 2, 0, 10, 4, 6, 3, 1, 0, 0, 0, 1, 4, 1, 8, 0, 0 ],
+    y: [ 3, 1, 0, 0, 2, 0, 4, 0, 8, 4, 6, 3, 1, 1, 0, 0, 0, 3, 0, 11, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.88888888888889, 8.88888888888889, 11.11111111111111, 11.11111111111111, 11.11111111111111, 11.11111111111111, 15.555555555555555, 15.555555555555555, 37.77777777777778, 46.66666666666667, 60.00000000000001, 66.66666666666667, 68.8888888888889, 68.8888888888889, 68.8888888888889, 68.8888888888889, 71.11111111111113, 80.00000000000001, 82.22222222222224, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
+    y: [ 6.382978723404255, 8.51063829787234, 8.51063829787234, 8.51063829787234, 12.76595744680851, 12.76595744680851, 21.27659574468085, 21.27659574468085, 38.29787234042553, 46.80851063829787, 59.574468085106375, 65.95744680851062, 68.08510638297871, 70.21276595744679, 70.21276595744679, 70.21276595744679, 70.21276595744679, 76.59574468085104, 76.59574468085104, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -246,5 +254,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

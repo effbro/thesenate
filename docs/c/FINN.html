@@ -451,14 +451,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 43 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_FINN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Balanced Tactics</td><td>Whenever a Resistance ally loses Foresight, they gain Advantage for 2 turns and whenever an enemy takes damage from Expose, reduce the cooldowns of all Resistance allies by 1 and grant them 35% Turn Meter</td><td>3</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_FINN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Balanced Tactics</td><td>Resistance allies have +60% Defense, Offense, and Potency, and other allies have half that amount. If an enemy is damaged by a Resistance ally, for each Expose on them: That enemy loses 5% Turn Meter for each Resistance ally, all Resistance allies gain 3% Turn Meter for each Resistance ally, and their cooldowns are reduced by 1.
+
+[e7e7e7]While in Territory Battles and if there are no Galactic Legend allies: Resistance allies gain 60% Max Health and Protection. Enemies attacking out of turn deal 50% less damage. At the start of the encounter, revive all Resistance allies with 100% Health, recover 100% Protection, and gain Protection Up (100%) for 2 turns, which can't be dispelled or prevented, and Finn gains Determination for 2 turns. While Finn has Determination, Resistance allies are immune to critical hits, and have 100% counter chance. Whenever a Resistance ally uses a Special ability, dispel all buffs on target enemy, and inflict Expose for 2 turns, which can't be evaded or resisted. Whenever another Resistance ally is damaged by an enemy attack, Finn has a 20% chance to gain 100% Turn Meter once per turn. If an enemy is damaged by a Resistance ally, for each Expose on them, deal additional true damage to all other enemies, then Resistance allies recover 10% Health and gain 2 Speed (max 60) for the rest of the battle.</td><td>4</td><td>9 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 0, 0, 1, 0, 2, 1, 20, 11, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
+    y: [ 3, 1, 0, 1, 0, 2, 0, 21, 10, 4, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.976744186046512, 6.976744186046512, 6.976744186046512, 9.30232558139535, 9.30232558139535, 13.953488372093023, 16.27906976744186, 62.7906976744186, 88.37209302325581, 93.02325581395348, 93.02325581395348, 93.02325581395348, 93.02325581395348, 93.02325581395348, 93.02325581395348, 93.02325581395348, 93.02325581395348, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 6.666666666666667, 8.88888888888889, 8.88888888888889, 11.11111111111111, 11.11111111111111, 15.555555555555555, 15.555555555555555, 62.22222222222222, 84.44444444444444, 93.33333333333333, 93.33333333333333, 93.33333333333333, 93.33333333333333, 93.33333333333333, 93.33333333333333, 93.33333333333333, 93.33333333333333, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -478,5 +480,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

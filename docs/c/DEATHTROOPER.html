@@ -372,14 +372,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DEATHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Krennic's Guard</td><td>+5% Heal, +50% Turn Meter Gain, and Director Krennic can't be Critically Hit while Death Trooper is alive</td><td>1</td><td>2 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DEATHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Krennic's Guard</td><td>Whenever Death Trooper scores a Critical Hit, he and Director Krennic recover 20% Health. Death Trooper has a 50% chance to gain 100% Turn Meter whenever Director Krennic takes damage. Director Krennic can't be Critically Hit while Death Trooper is alive.
+
+While Death Trooper is active, Imperial Trooper allies have +10% Health Steal.</td><td>1</td><td>2 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 10, 0, 0, 0, 1, 0, 2, 21, 1, 1, 2, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ],
+    y: [ 11, 0, 0, 0, 1, 0, 3, 22, 1, 0, 2, 3, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 23.809523809523807, 23.809523809523807, 23.809523809523807, 23.809523809523807, 26.190476190476186, 26.190476190476186, 30.95238095238095, 80.95238095238095, 83.33333333333333, 85.71428571428571, 90.47619047619047, 97.6190476190476, 97.6190476190476, 97.6190476190476, 97.6190476190476, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 24.444444444444443, 24.444444444444443, 24.444444444444443, 24.444444444444443, 26.666666666666664, 26.666666666666664, 33.33333333333333, 82.22222222222221, 84.44444444444444, 84.44444444444444, 88.88888888888889, 95.55555555555556, 95.55555555555556, 97.77777777777779, 97.77777777777779, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -399,5 +401,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

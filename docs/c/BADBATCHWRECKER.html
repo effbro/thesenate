@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2021/05/01/swgoh-best-mods-for-wrecker/">https://gaming-fans.com/2021/05/01/swgoh-best-mods-for-wrecker/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1436 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -372,14 +372,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 34 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHWRECKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_wrecker.png" style="width: 30px" /> Dauntless Commando</td><td /><td>6</td><td>18 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 36 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHWRECKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_wrecker.png" style="width: 30px" /> Dauntless Commando</td><td>At the start of battle, Wrecker gains +20% Max Health and Max Protection for each other Bad Batch ally. Wrecker gains 1 stack of Fury for each Clone Trooper and each Bad Batch ally. Whenever Wrecker gains Stealth, he dispels it and gains Taunt for 1 turn.
+
+Whenever Wrecker takes damage from an enemy, he gains 1 stack of Fury. At 10 stacks, he loses all stacks of Fury and gains Furious for 2 turns, which can't be copied, dispelled, or prevented. When Wrecker gains Furious, he gains Taunt for 1 turn.
+
+Furious: Abilities gain additional effects; can't gain Fury</td><td>6</td><td>17 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 1, 4, 3, 1, 0, 4, 7, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
+    y: [ 13, 1, 4, 3, 1, 0, 4, 6, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 32.35294117647059, 35.29411764705882, 47.05882352941176, 55.882352941176464, 58.823529411764696, 58.823529411764696, 70.58823529411764, 91.17647058823528, 91.17647058823528, 91.17647058823528, 94.11764705882351, 97.05882352941174, 97.05882352941174, 97.05882352941174, 97.05882352941174, 97.05882352941174, 97.05882352941174, 97.05882352941174, 97.05882352941174, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
+    y: [ 36.11111111111111, 38.888888888888886, 50.0, 58.33333333333333, 61.11111111111111, 61.11111111111111, 72.22222222222221, 88.88888888888889, 88.88888888888889, 88.88888888888889, 94.44444444444444, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -399,5 +403,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

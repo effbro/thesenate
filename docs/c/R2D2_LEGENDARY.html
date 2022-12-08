@@ -377,14 +377,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them</td><td>9</td><td>19 %</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, and when R2-D2 is revived, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated</td><td>15</td><td>31 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, all allies gain 10% Critical Chance and 10% Accuracy. While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them.</td><td>9</td><td>19 %</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, R2-D2 gains 10% Max Protection for each Droid ally, 10% Offense for each Galactic Republic ally, 10% Max Health for each Rebel ally, and 10% Potency for each Resistance ally.
+
+At the start of battle, and when R2-D2 revives, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated.</td><td>13</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 2, 3, 10, 6, 7, 0, 7, 0, 0, 0, 0, 0, 2, 0, 10, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 2, 4, 12, 6, 6, 0, 7, 0, 0, 0, 0, 0, 1, 0, 9, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 6.249999999999999, 12.5, 33.333333333333336, 45.833333333333336, 60.41666666666667, 60.41666666666667, 75.0, 75.0, 75.0, 75.0, 75.0, 75.0, 79.16666666666667, 79.16666666666667, 100.0, 100.0, 100.0 ],
+    y: [ 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 2.083333333333333, 6.249999999999999, 14.583333333333332, 39.58333333333333, 52.08333333333333, 64.58333333333333, 64.58333333333333, 79.16666666666666, 79.16666666666666, 79.16666666666666, 79.16666666666666, 79.16666666666666, 79.16666666666666, 81.24999999999999, 81.24999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -404,5 +406,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

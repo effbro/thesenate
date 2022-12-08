@@ -234,14 +234,22 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 40 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ZAMWESELL01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Shapeshifter</td><td /><td>10</td><td>25 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ZAMWESELL01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Shapeshifter</td><td>At the start of battle, Zam gains:
+
+20% increase to her Offense for each Scoundrel Attacker ally
+
+20% increase to her Max Health for each Scoundrel Support and Healer ally
+
+20% increase to her Max Protection for each Scoundrel Tank ally.
+
+[e7e7e7]While in Grand Arenas: Zam instead gains 60% increases to her Offense, Max Health, and Max Protection. Zam gains 5% Speed for each other Bounty Hunter ally. Other Bounty Hunter allies gain 20% of Zam's current Offense, Max Health, Max Protection, and Speed until the first time she is defeated.</td><td>10</td><td>24 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 1, 2, 0, 0, 3, 7, 6, 4, 0, 2, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    y: [ 12, 2, 0, 1, 0, 4, 6, 7, 3, 1, 2, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 27.500000000000004, 30.000000000000004, 35.0, 35.0, 35.0, 42.5, 60.0, 75.0, 85.0, 85.0, 90.0, 95.0, 95.0, 97.5, 97.5, 97.5, 97.5, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 28.57142857142857, 33.33333333333333, 33.33333333333333, 35.71428571428571, 35.71428571428571, 45.238095238095234, 59.52380952380952, 76.19047619047618, 83.33333333333331, 85.7142857142857, 90.47619047619045, 92.85714285714283, 92.85714285714283, 92.85714285714283, 92.85714285714283, 95.23809523809521, 95.23809523809521, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +269,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

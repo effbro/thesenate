@@ -224,14 +224,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 38 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_GENERALHUX01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetrate.png" style="width: 30px" /> Boundless Ambition</td><td /><td>17</td><td>45 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 40 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_GENERALHUX01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetrate.png" style="width: 30px" /> Boundless Ambition</td><td>General Hux gains Advantage for 2 turns at the start of each encounter. If the allied leader is First Order, all other First Order allies also gain Advantage for 2 turns at the start of each encounter.
+
+If all allies are First Order at the start of battle, enemies can't gain bonus Turn Meter while General Hux has Advantage.</td><td>17</td><td>42 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 0, 0, 0, 0, 0, 4, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0, 11, 1, 4, 0, 0 ],
+    y: [ 11, 0, 0, 0, 0, 2, 4, 2, 2, 0, 2, 0, 0, 0, 0, 1, 0, 12, 0, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 28.947368421052634, 28.947368421052634, 28.947368421052634, 28.947368421052634, 28.947368421052634, 28.947368421052634, 39.473684210526315, 44.73684210526316, 50.0, 52.63157894736842, 55.263157894736835, 57.89473684210525, 57.89473684210525, 57.89473684210525, 57.89473684210525, 57.89473684210525, 57.89473684210525, 86.84210526315789, 89.47368421052632, 100.0, 100.0, 100.0 ],
+    y: [ 27.500000000000004, 27.500000000000004, 27.500000000000004, 27.500000000000004, 27.500000000000004, 32.5, 42.5, 47.5, 52.5, 52.5, 57.5, 57.5, 57.5, 57.5, 57.5, 60.0, 60.0, 90.0, 90.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +253,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

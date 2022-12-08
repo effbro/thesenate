@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2021/03/22/swgoh-best-mods-for-bo-katan-kryze/">https://gaming-fans.com/2021/03/22/swgoh-best-mods-for-bo-katan-kryze/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1536 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -357,14 +357,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 38 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BOKATAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_survivalstrength.png" style="width: 30px" /> Stronger Together</td><td /><td>5</td><td>13 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 39 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BOKATAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_survivalstrength.png" style="width: 30px" /> Stronger Together</td><td>At the start of battle, Mandalorian allies gain 20% Max Protection for each Mandalorian ally until the first time Bo-Katan is defeated. 
+
+Whenever a Mandalorian ally attacks out of turn, Mandalorian allies recover 8% Health and Protection.</td><td>6</td><td>15 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 17, 0, 1, 1, 0, 3, 1, 5, 0, 0, 0, 2, 0, 1, 0, 0, 0, 7, 0, 0, 0, 0 ],
+    y: [ 15, 0, 1, 1, 0, 2, 0, 7, 0, 1, 0, 1, 0, 0, 0, 0, 0, 11, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 44.73684210526316, 44.73684210526316, 47.368421052631575, 49.99999999999999, 49.99999999999999, 57.89473684210525, 60.52631578947367, 73.68421052631578, 73.68421052631578, 73.68421052631578, 73.68421052631578, 78.94736842105262, 78.94736842105262, 81.57894736842104, 81.57894736842104, 81.57894736842104, 81.57894736842104, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 38.46153846153847, 38.46153846153847, 41.02564102564103, 43.58974358974359, 43.58974358974359, 48.717948717948715, 48.717948717948715, 66.66666666666666, 66.66666666666666, 69.23076923076923, 69.23076923076923, 71.7948717948718, 71.7948717948718, 71.7948717948718, 71.7948717948718, 71.7948717948718, 71.7948717948718, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -384,5 +386,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2020/08/26/swgoh-best-mods-for-sith-eternal-emperor-galactic-legend/">https://gaming-fans.com/2020/08/26/swgoh-best-mods-for-sith-eternal-emperor-galactic-legend/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1680 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -219,14 +219,36 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 11 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_SITHPALPATINE"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_basic.png" style="width: 30px" /> Deception</td><td /><td>10</td><td>91 %</td></tr><tr><td data-order="leaderskill_SITHPALPATINE"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Sith Eternal</td><td /><td>11</td><td>100 %</td></tr><tr><td data-order="specialskill_SITHPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_special01.png" style="width: 30px" /> So Be It, Jedi</td><td /><td>11</td><td>100 %</td></tr><tr><td data-order="specialskill_SITHPALPATINE02"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_special02.png" style="width: 30px" /> Unraveled Destiny</td><td /><td>11</td><td>100 %</td></tr><tr><td data-order="uniqueskill_GALACTICLEGEND01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_galacticlegend.png" style="width: 30px" /> Galactic Legend</td><td /><td>11</td><td>100 %</td></tr><tr><td data-order="uniqueskill_SITHPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sowdiscord.png" style="width: 30px" /> Sow Discord</td><td /><td>11</td><td>100 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 13 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_SITHPALPATINE"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_basic.png" style="width: 30px" /> Deception</td><td>Deal Special damage to target enemy. If that enemy wasn't Deceived, they become Deceived for 2 turns, increased to 3 turns if they are a Jedi. Deceived can't be copied, dispelled, or resisted. Sith Eternal Emperor gains Speed Up for 2 turns. This ability can't be countered.
+
+Deceived: Can't target Sith Eternal Emperor during their turn if another Sith enemy is active; when an ability is used, Sith Eternal Emperor gains 2% Ultimate Charge</td><td>11</td><td>85 %</td></tr><tr><td data-order="leaderskill_SITHPALPATINE"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Sith Eternal</td><td>Dark Side allies have +25% Mastery, +30% Potency, and +20 Speed, doubled for Sith allies.
+
+Whenever a Deceived or Linked enemy uses an ability, Sith Eternal Emperor gains 10% Mastery (stacking) until the end of encounter and other Sith allies gain half that amount. Whenever a Linked enemy uses an ability, Sith Eternal Emperor gains 8% Ultimate Charge.
+
+After the start of each encounter, whenever an enemy gains a buff that can't be dispelled, Sith allies gain 5% Turn Meter.
+
+Whenever a Sith ally is defeated, dispel all debuffs on other Sith allies and they recover 100% Health and Protection. Sith allies can't be revived, and they ignore defense when targeting a Jedi enemy.</td><td>12</td><td>92 %</td></tr><tr><td data-order="specialskill_SITHPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_special01.png" style="width: 30px" /> So Be It, Jedi</td><td>Deal Special damage to target enemy and call all other Dark Side allies to assist, dealing 10% more damage for each Deceived enemy. Dark Side allies recover 50% Protection. Jedi enemies defeated this turn can't be revived.</td><td>12</td><td>92 %</td></tr><tr><td data-order="specialskill_SITHPALPATINE02"><img src="https://game-assets.swgoh.gg/tex.ability_espalpatine_pre_special02.png" style="width: 30px" /> Unraveled Destiny</td><td>Dark Side allies gain Retribution for 3 turns, and Dark Side Tank allies gain Taunt for 2 turns. Remove Linked from all enemies. Then, target enemy becomes Linked until a Linked enemy is defeated or until the end of encounter. Sith Eternal Emperor gains the granted ability Entwined Fate and takes a bonus turn.
+
+During this bonus turn, Sith Eternal Emperor may only use Entwined Fate, can't be ability blocked, ignores taunt effects, and may not target a Linked character.
+
+Linked: This character is Linked
+
+Entwined Fate: Target enemy becomes Linked. This ability is removed and can't be used again until Unraveled Destiny is used.</td><td>12</td><td>92 %</td></tr><tr><td data-order="uniqueskill_GALACTICLEGEND01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_galacticlegend.png" style="width: 30px" /> Galactic Legend</td><td>This unit takes reduced damage from percent Health damage effects and massive damage effects. They take massive damage from destroy effects (excludes raid bosses) and are immune to stun effects.
+
+This unit has +10% Max Health and Max Protection per Relic Amplifier level, and damage they receive is decreased by 30%.</td><td>12</td><td>92 %</td></tr><tr><td data-order="uniqueskill_SITHPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sowdiscord.png" style="width: 30px" /> Sow Discord</td><td>Sith Eternal Emperor is immune to taunt effects and Turn Meter reduction. Deceived enemies can't counter attack, and Deceived Rebel and Jedi enemies can't gain bonus Turn Meter.
+
+At the start of Sith Eternal Emperor's turn, if no enemies are Deceived, the weakest Light Side enemy becomes Deceived for 2 turns. Whenever a Deceived enemy uses an ability, their weakest ally without Deceived becomes Deceived for the max duration Sith Eternal Emperor could inflict on them (limit once per turn), and Sith Eternal Emperor recovers 2% Protection. Deceived can't be copied, dispelled, or resisted.
+
+At the start of each Linked enemy's turn, Linked enemies lose 20% Max Protection, quadrupled for Jedi, and Sith Eternal Emperor gains 25% of the amount lost. Linked raid bosses instead gain Expose for 2 turns, which can't be resisted.
+
+Linked enemies can't critically hit, and damage they deal is decreased by 25% (excludes Galactic Legends).</td><td>12</td><td>92 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 2, 0 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 7, 3, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 18.181818181818183, 81.81818181818181, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.6923076923076925, 7.6923076923076925, 7.6923076923076925, 23.076923076923077, 76.92307692307692, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -246,5 +268,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

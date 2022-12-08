@@ -308,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_LOGRAY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Shaman's Insight</td><td>While Logray is active, whenever an Ewok ally scores a Critical Hit, that ally gains Health Up for 2 turns, and then all Ewok allies with Health Up recover 10% Health</td><td>7</td><td>15 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_LOGRAY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Shaman's Insight</td><td>Whenever an Ewok ally scores a Critical Hit, Logray gains 5% Turn Meter. While Logray is active, whenever an Ewok ally scores a Critical Hit, that ally gains Health Up for 2 turns, and then all Ewok allies with Health Up recover 10% Health.</td><td>7</td><td>15 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 4, 1, 0, 0, 1, 0, 1, 1, 17, 8, 8, 5, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    y: [ 3, 2, 0, 0, 1, 0, 1, 1, 16, 7, 10, 5, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.51063829787234, 10.638297872340425, 10.638297872340425, 10.638297872340425, 12.76595744680851, 12.76595744680851, 14.893617021276595, 17.02127659574468, 53.19148936170213, 70.2127659574468, 87.23404255319149, 97.87234042553192, 97.87234042553192, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 6.382978723404255, 10.638297872340425, 10.638297872340425, 10.638297872340425, 12.76595744680851, 12.76595744680851, 14.893617021276595, 17.02127659574468, 51.06382978723404, 65.95744680851064, 87.23404255319149, 97.87234042553192, 97.87234042553192, 97.87234042553192, 97.87234042553192, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

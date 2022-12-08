@@ -288,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 29 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> For Pipada</td><td>Gains 5% Turn Meter whenever a Rebel ally uses Basic attack.</td><td>2</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 32 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> For Pipada</td><td>Whenever a Rebel ally uses a Basic attack, reduces Pao's cooldowns by 1 and Pao gains 5% Turn Meter.</td><td>4</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 19, 1, 2, 1, 0, 2, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    y: [ 18, 2, 2, 2, 0, 1, 1, 2, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 65.51724137931035, 68.96551724137932, 75.86206896551725, 79.31034482758622, 79.31034482758622, 86.20689655172416, 86.20689655172416, 89.65517241379312, 89.65517241379312, 89.65517241379312, 89.65517241379312, 93.10344827586209, 93.10344827586209, 96.55172413793106, 96.55172413793106, 96.55172413793106, 96.55172413793106, 100.00000000000003, 100.00000000000003, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
+    y: [ 56.25, 62.5, 68.75, 75.0, 75.0, 78.125, 81.25, 87.5, 87.5, 87.5, 90.625, 93.75, 93.75, 96.875, 96.875, 96.875, 96.875, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -315,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

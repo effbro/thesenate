@@ -214,14 +214,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 41 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BARRISSOFFEE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Swift Recovery</td><td>Whenever an ally is Critically Hit they recover 20% of their Max Health</td><td>5</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BARRISSOFFEE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Swift Recovery</td><td>At the end of each of her turns, Barriss dispels all debuffs from the weakest debuffed ally and gains 10% Turn Meter for each debuff removed.
+
+Whenever an ally is critically hit, that ally recovers 20% Health and Barriss gains 10% Turn Meter.</td><td>5</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 23, 0, 0, 0, 0, 2, 2, 8, 2, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    y: [ 24, 0, 0, 0, 1, 2, 2, 7, 2, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 56.09756097560976, 56.09756097560976, 56.09756097560976, 56.09756097560976, 56.09756097560976, 60.97560975609756, 65.85365853658537, 85.3658536585366, 90.2439024390244, 92.6829268292683, 92.6829268292683, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 57.14285714285714, 57.14285714285714, 57.14285714285714, 57.14285714285714, 59.52380952380952, 64.28571428571428, 69.04761904761904, 85.7142857142857, 90.47619047619045, 92.85714285714283, 92.85714285714283, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -241,5 +243,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

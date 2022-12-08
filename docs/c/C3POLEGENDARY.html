@@ -234,14 +234,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_C3POLEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.ability_c3p0_special01.png" style="width: 30px" /> Oh My Goodness!</td><td>Inflict Confuse twice on target enemy for 3 turns</td><td>35</td><td>78 %</td></tr><tr><td data-order="uniqueskill_C3POLEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Wait for Me!</td><td>At start of encounter, C-3PO and R2-D2 gain Translation for 3 turns</td><td>22</td><td>49 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_C3POLEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.ability_c3p0_special01.png" style="width: 30px" /> Oh My Goodness!</td><td>C-3PO gains Potency Up and Stealth for 2 turns, then he and target other ally gain Translation for 3 turns. C-3PO inflicts Confuse twice on target enemy for 3 turns, then calls all other allies with Translation to assist, dealing 50% less damage.
+
+(See Protocol Droid for a description of Translation.)</td><td>40</td><td>89 %</td></tr><tr><td data-order="uniqueskill_C3POLEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Wait for Me!</td><td>C-3PO and R2-D2 have +10% Evasion for each of their own stacks of Translation. At the start of encounter, C-3PO and R2-D2 gain Translation for 3 turns. When there are no other allied combatants, C-3PO escapes from battle.</td><td>24</td><td>53 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 17, 1, 1, 0, 5, 0, 18, 0, 1, 0, 0 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 14, 1, 2, 0, 2, 0, 20, 0, 3, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.444444444444445, 4.444444444444445, 4.444444444444445, 4.444444444444445, 42.22222222222222, 44.44444444444444, 46.666666666666664, 46.666666666666664, 57.77777777777777, 57.77777777777777, 97.77777777777777, 97.77777777777777, 100.0, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.444444444444445, 4.444444444444445, 4.444444444444445, 6.666666666666667, 37.77777777777778, 40.0, 44.44444444444444, 44.44444444444444, 48.888888888888886, 48.888888888888886, 93.33333333333333, 93.33333333333333, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +263,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

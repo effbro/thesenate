@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2021/12/02/swgoh-best-mods-for-kyle-katarn/">https://gaming-fans.com/2021/12/02/swgoh-best-mods-for-kyle-katarn/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1415 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -288,14 +288,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 35 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KYLEKATARN02"><img src="https://game-assets.swgoh.gg/tex.ability_kylekatarn_special02.png" style="width: 30px" /> Power of the Valley</td><td /><td>1</td><td>3 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 37 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KYLEKATARN02"><img src="https://game-assets.swgoh.gg/tex.ability_kylekatarn_special02.png" style="width: 30px" /> Power of the Valley</td><td>Dispel all debuffs on all Rebel Fighter allies. Rebel Fighter allies gain Defense Up and Speed Up for 2 turns. Deal Physical damage to all enemies and inflict Force Influence on target enemy for 2 turns, which can't be copied.
+
+Jedi Knight: Inflict Force Influence on all enemies for 2 turns 
+
+Force Influence: Can't assist, counter attack, or gain buffs (raid bosses and Galactic Legends: -30% counter chance)</td><td>3</td><td>8 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 22, 0, 0, 1, 1, 0, 5, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0 ],
+    y: [ 17, 0, 0, 1, 2, 1, 6, 1, 5, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 62.857142857142854, 62.857142857142854, 62.857142857142854, 65.71428571428571, 68.57142857142857, 68.57142857142857, 82.85714285714286, 82.85714285714286, 91.42857142857143, 91.42857142857143, 94.28571428571429, 94.28571428571429, 94.28571428571429, 94.28571428571429, 94.28571428571429, 94.28571428571429, 94.28571428571429, 97.14285714285715, 97.14285714285715, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 45.94594594594595, 45.94594594594595, 45.94594594594595, 48.64864864864865, 54.054054054054056, 56.75675675675676, 72.97297297297297, 75.67567567567568, 89.1891891891892, 91.8918918918919, 91.8918918918919, 91.8918918918919, 91.8918918918919, 91.8918918918919, 91.8918918918919, 91.8918918918919, 91.8918918918919, 97.2972972972973, 97.2972972972973, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -315,5 +319,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

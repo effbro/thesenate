@@ -347,14 +347,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 16 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IMPERIALPROBEDROID01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Logistics</td><td>While Imperial Probe Droid is active Target Locked enemies can't gain buffs</td><td>1</td><td>6 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 19 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IMPERIALPROBEDROID01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Imperial Logistics</td><td>Imperial Probe Droid has +50% Max Health. At the end of each Droid ally turn, at the end of each Empire ally turn, and at the end of each Rebel enemy turn, Imperial Probe Droid gains 3% Turn Meter.
+
+While Imperial Probe Droid is active, Target Locked enemies have -25% Evasion and can't gain buffs.
+
+[e7e7e7]While in Territory Battles: At the start of battle, Imperial Probe Droid loses all Protection and gains that much Max Health. Imperial Probe Droid can be revived after using Self-Destruct and ignores Taunt. At the start of each encounter, Imperial Probe Droid is revived with 100% Health. Whenever Imperial Probe Droid uses Self-Destruct, the target enemy takes additional damage equal to 200% of Imperial Probe Droid's Max Health and other Empire allies gain Offense equal to 300% of Imperial Probe Droid's Offense (stacking) until they're defeated.</td><td>1</td><td>5 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 12, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    y: [ 14, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 75.0, 75.0, 81.25, 81.25, 81.25, 81.25, 87.5, 93.75, 93.75, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 73.68421052631578, 78.94736842105262, 84.21052631578945, 84.21052631578945, 84.21052631578945, 84.21052631578945, 89.47368421052629, 94.73684210526312, 94.73684210526312, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996, 99.99999999999996 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -374,5 +378,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

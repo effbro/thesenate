@@ -229,14 +229,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_NUTEGUNRAY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Viceroy's Reach</td><td /><td>12</td><td>26 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 46 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_NUTEGUNRAY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Viceroy's Reach</td><td>Whenever a Separatist ally inflicts a debuff, they also deal 5% Max Health damage to that enemy, which can't be evaded, and enemies with Extortion have -30% Speed and Offense.
+
+The first time Nute Gunray is defeated, he is revived with 100% Health and Turn Meter. Every time Nute Gunray is revived, he Stealths for 2 turns.</td><td>14</td><td>30 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 10, 0, 0, 2, 1, 1, 0, 7, 3, 1, 11, 8, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0 ],
+    y: [ 7, 0, 0, 2, 1, 2, 0, 8, 5, 1, 10, 7, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 21.27659574468085, 21.27659574468085, 21.27659574468085, 25.53191489361702, 27.659574468085104, 29.787234042553187, 29.787234042553187, 44.680851063829785, 51.06382978723404, 53.191489361702125, 76.59574468085106, 93.61702127659574, 93.61702127659574, 93.61702127659574, 93.61702127659574, 95.74468085106382, 95.74468085106382, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 15.217391304347828, 15.217391304347828, 15.217391304347828, 19.56521739130435, 21.739130434782613, 26.086956521739133, 26.086956521739133, 43.47826086956522, 54.34782608695652, 56.52173913043478, 78.26086956521739, 93.47826086956522, 93.47826086956522, 93.47826086956522, 93.47826086956522, 95.65217391304348, 95.65217391304348, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -256,5 +258,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

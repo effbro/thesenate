@@ -298,14 +298,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 33 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FOSITHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Emperor's Legacy</td><td /><td>16</td><td>48 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 36 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FOSITHTROOPER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith_e9.png" style="width: 30px" /> Emperor's Legacy</td><td>At the start of battle, Sith Trooper gains Advantage for 2 turns if the Leader is First Order or Sith. While Sith Trooper has Advantage, he has +50% Critical Damage.
+
+Whenever another First Order or Sith ally scores a critical hit or Stuns an enemy, Sith Trooper is called to assist (limit once per turn).
+
+Whenever another First Order or Sith ally is defeated, the cooldown of Vengeant Blast is reset, then Sith Trooper gains Advantage for 1 turn and takes a bonus turn.</td><td>17</td><td>47 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 1, 0, 1, 0, 0, 2, 6, 0, 1, 0, 2, 0, 0, 0, 0, 0, 11, 3, 1, 0, 0 ],
+    y: [ 6, 2, 0, 1, 0, 0, 2, 6, 0, 1, 1, 1, 0, 0, 0, 0, 0, 13, 2, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 15.151515151515152, 18.181818181818183, 18.181818181818183, 21.212121212121215, 21.212121212121215, 21.212121212121215, 27.272727272727273, 45.45454545454545, 45.45454545454545, 48.484848484848484, 48.484848484848484, 54.54545454545455, 54.54545454545455, 54.54545454545455, 54.54545454545455, 54.54545454545455, 54.54545454545455, 87.87878787878788, 96.96969696969697, 100.0, 100.0, 100.0 ],
+    y: [ 16.666666666666664, 22.22222222222222, 22.22222222222222, 25.0, 25.0, 25.0, 30.555555555555557, 47.22222222222222, 47.22222222222222, 50.0, 52.77777777777778, 55.55555555555556, 55.55555555555556, 55.55555555555556, 55.55555555555556, 55.55555555555556, 55.55555555555556, 91.66666666666666, 97.22222222222221, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -325,5 +329,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

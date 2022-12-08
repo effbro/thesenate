@@ -382,14 +382,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_carthonasi"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Soldier of the Old Republic</td><td>Whenever an enemy is inflicted with a Damage Over Time effect, all Old Republic allies recover 3% Health and Protection</td><td>22</td><td>47 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 46 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_carthonasi"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Soldier of the Old Republic</td><td>Old Republic allies gain 30% Potency, Tenacity and Critical Avoidance. Whenever an enemy is inflicted with a Damage Over Time effect, all Old Republic allies recover 3% Health and Protection.
+
+When an Old Republic ally uses their Basic ability during their turn, they have an 80% chance to call another Old Republic ally to assist, dealing 50% less damage (limit once per turn).
+
+[e7e7e7]While in Territory Battles: Old Republic allies have +20% counter chance, Defense, and Max Health for each Old Republic ally. Whenever an Old Republic ally uses a Special ability, they inflict 4 Damage Over Time effects on the target enemy, which can't be evaded, and then Carth is called to assist. Whenever an Old Republic ally attacks out of turn, they recover 5% Health and Protection and gain 25% Offense (stacking) until the end of the encounter.</td><td>18</td><td>39 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 0, 0, 1, 0, 0, 1, 5, 5, 4, 14, 11, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    y: [ 2, 0, 0, 0, 0, 2, 3, 5, 6, 4, 12, 11, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 10.638297872340425, 10.638297872340425, 10.638297872340425, 12.76595744680851, 12.76595744680851, 12.76595744680851, 14.893617021276595, 25.53191489361702, 36.170212765957444, 44.680851063829785, 74.46808510638297, 97.87234042553192, 97.87234042553192, 97.87234042553192, 97.87234042553192, 97.87234042553192, 97.87234042553192, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 4.3478260869565215, 4.3478260869565215, 4.3478260869565215, 4.3478260869565215, 4.3478260869565215, 8.695652173913043, 15.217391304347824, 26.08695652173913, 39.130434782608695, 47.826086956521735, 73.91304347826086, 97.82608695652173, 97.82608695652173, 97.82608695652173, 97.82608695652173, 97.82608695652173, 97.82608695652173, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -409,5 +413,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

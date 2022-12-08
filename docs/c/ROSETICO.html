@@ -540,14 +540,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-4', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 18 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ROSETICO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Valiant Spirit</td><td>When another Resistance ally scores a Critical Hit, Rose Tico gains 10% Turn Meter</td><td>1</td><td>6 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 20 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ROSETICO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Valiant Spirit</td><td>Rose Tico has +10% Offense for each Exposed enemy. When another Resistance ally scores a Critical Hit, Rose Tico gains 10% Turn Meter.
+
+[e7e7e7]While in Grand Arenas: All other Resistance allies also gain 10% Offense for each Exposed enemy, and they gain 5% Turn Meter whenever a Resistance ally scores a critical hit.</td><td>1</td><td>5 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 10, 1, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
+    y: [ 11, 1, 0, 0, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 55.55555555555556, 61.111111111111114, 61.111111111111114, 61.111111111111114, 66.66666666666667, 66.66666666666667, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 83.33333333333334, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 55.00000000000001, 60.00000000000001, 60.00000000000001, 60.00000000000001, 65.0, 65.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 85.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -567,5 +569,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

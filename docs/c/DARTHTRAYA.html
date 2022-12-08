@@ -288,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHTRAYA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_lordofbetrayal.png" style="width: 30px" /> Compassion is Weakness</td><td>When an enemy uses an ability outside of their turn, they take damage equal to 35% of their Max Health. This damage can't defeat enemies. When an enemy gains a buff outside of their turn, they lose 50% Offense until the end of their next turn</td><td>12</td><td>27 %</td></tr><tr><td data-order="uniqueskill_DARTHTRAYA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bondsofweakness.png" style="width: 30px" /> Lord of Betrayal</td><td>At the start of each Sith ally's turn, Traya dispels all debuffs on them and deals damage equal to 5% of their Max Health for each debuff dispelled</td><td>8</td><td>18 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHTRAYA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_lordofbetrayal.png" style="width: 30px" /> Compassion is Weakness</td><td>Sith allies have +40% Critical Avoidance and +40% Potency. When a debuffed enemy takes damage, all Sith allies recover 10% Health. When an enemy uses an ability outside of their turn, they take damage equal to 35% of their Max Health. This damage can't defeat enemies. When an enemy gains a buff outside of their turn, they lose 50% Offense until the end of their next turn.</td><td>11</td><td>24 %</td></tr><tr><td data-order="uniqueskill_DARTHTRAYA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bondsofweakness.png" style="width: 30px" /> Lord of Betrayal</td><td>When an ally suffers a debuff, Darth Traya gains +10% Bonus Protection (stacking) until the end of her next turn. At the start of each Sith ally's turn, Traya dispels all debuffs on them and deals damage equal to 5% of their Max Health (max 75%) for each debuff dispelled. When allied Darth Nihilus or Darth Sion are critically hit or inflicted with a debuff, Traya gains +12% Offense (stacking) for 2 turns.</td><td>8</td><td>18 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 10, 0, 1, 0, 0, 2, 5, 11, 4, 5, 2, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
+    y: [ 13, 0, 0, 0, 0, 1, 6, 10, 3, 5, 3, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 22.727272727272727, 22.727272727272727, 25.0, 25.0, 25.0, 29.545454545454547, 40.90909090909091, 65.9090909090909, 75.0, 86.36363636363636, 90.9090909090909, 95.45454545454545, 95.45454545454545, 95.45454545454545, 95.45454545454545, 97.72727272727272, 97.72727272727272, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 28.888888888888886, 28.888888888888886, 28.888888888888886, 28.888888888888886, 28.888888888888886, 31.111111111111107, 44.44444444444444, 66.66666666666666, 73.33333333333333, 84.44444444444444, 91.11111111111111, 95.55555555555556, 95.55555555555556, 95.55555555555556, 95.55555555555556, 95.55555555555556, 95.55555555555556, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -315,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

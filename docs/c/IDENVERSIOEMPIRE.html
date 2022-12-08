@@ -153,7 +153,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-all', traces, layout)
 }
-</script><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2022/01/12/swgoh-best-mods-for-iden-versio/">https://gaming-fans.com/2022/01/12/swgoh-best-mods-for-iden-versio/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
 Based on 1091 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
@@ -416,14 +416,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 36 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IDENVERSIOEMPIRE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_firstinlastout.png" style="width: 30px" /> First In, Last Out</td><td /><td>7</td><td>19 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 41 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_IDENVERSIOEMPIRE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_firstinlastout.png" style="width: 30px" /> First In, Last Out</td><td>If no other allies have the Leader tag, and all allies are non-Droid Imperial Troopers, Iden gains 100% Turn Meter at the start of each encounter, and whenever she is defeated she revives with 100% Health and Protection if there is another active Imperial Trooper ally.
+
+While Iden has Protection Up, she has +30% Potency; while she is active, Imperial Trooper allies have +30% Offense.</td><td>11</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 18, 0, 0, 0, 1, 2, 0, 11, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    y: [ 19, 2, 0, 0, 0, 3, 1, 10, 3, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 50.0, 50.0, 50.0, 50.0, 52.77777777777778, 58.333333333333336, 58.333333333333336, 88.88888888888889, 94.44444444444444, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 97.22222222222221, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 46.34146341463415, 51.21951219512195, 51.21951219512195, 51.21951219512195, 51.21951219512195, 58.536585365853654, 60.975609756097555, 85.36585365853658, 92.68292682926828, 95.12195121951218, 95.12195121951218, 95.12195121951218, 95.12195121951218, 95.12195121951218, 95.12195121951218, 97.56097560975608, 97.56097560975608, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -443,5 +445,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

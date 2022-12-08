@@ -392,14 +392,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JYNERSO"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Into the Fray</td><td>Rebel allies recover 5% Protection whenever they gain a buff</td><td>1</td><td>2 %</td></tr><tr><td data-order="uniqueskill_JYNERSO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> Fierce Determination</td><td>Jyn is immune to Stun</td><td>2</td><td>5 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JYNERSO"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Into the Fray</td><td>Rebel allies have +35% Potency and recover 5% Protection whenever they gain a buff. Enemies that suffer debuffs during Rebel allies' turns have a 50% chance to also become Exposed for 2 turns. This Expose can't be Resisted.</td><td>1</td><td>2 %</td></tr><tr><td data-order="uniqueskill_JYNERSO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> Fierce Determination</td><td>Rogue One allies are immune to Buff Immunity. Jyn is immune to Stun and gains 10% Potency each time she critically hits an enemy.
+
+[E7E7E7]While in Territory Wars: Rogue One allies gain 30% Max Health and Potency and 20 Speed. Whenever a Rogue One ally's buff expires during an enemy's turn, Jyn gains 10% Turn Meter. If all allies are Rogue One at the start of battle, whenever Jyn critically hits an enemy, all allies recover 10% Health and gain an additional bonus depending on their role
+
+- Attacker Gain Critical Damage Up and Offense Up for 2 turns
+- Tank Gain Critical Hit Immunity and Taunt for 2 turns
+- Support or Healer Gain Evasion Up and Speed Up for 2 turns</td><td>1</td><td>2 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 9, 1, 0, 0, 0, 1, 1, 26, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ],
+    y: [ 8, 1, 0, 0, 0, 3, 1, 26, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 21.428571428571427, 23.809523809523807, 23.809523809523807, 23.809523809523807, 23.809523809523807, 26.190476190476186, 28.571428571428566, 90.47619047619047, 90.47619047619047, 92.85714285714285, 92.85714285714285, 92.85714285714285, 92.85714285714285, 92.85714285714285, 92.85714285714285, 92.85714285714285, 92.85714285714285, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 18.181818181818183, 20.454545454545457, 20.454545454545457, 20.454545454545457, 20.454545454545457, 27.272727272727273, 29.545454545454547, 88.63636363636364, 88.63636363636364, 90.9090909090909, 90.9090909090909, 90.9090909090909, 90.9090909090909, 90.9090909090909, 90.9090909090909, 90.9090909090909, 90.9090909090909, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -419,5 +425,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

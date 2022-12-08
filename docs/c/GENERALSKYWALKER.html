@@ -303,14 +303,47 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 29 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.ability_generalanakin_basic.png" style="width: 30px" /> Furious Slash</td><td>If this is the first ability General Skywalker uses during his turn, he immediately uses the Special ability Telekinesis, if able</td><td>27</td><td>93 %</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> General of the 501st</td><td>When an enemy gains a buff, all 501st allies gain 2% Offense (stacking) until the end of the encounter</td><td>29</td><td>100 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedi.png" style="width: 30px" /> The Chosen One</td><td>If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses), which can't be resisted</td><td>27</td><td>93 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Hero with no Fear</td><td>General Skywalker has +100% counter chance and +50% Critical Chance if all allies are 501st at the start of battle</td><td>28</td><td>97 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 29 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.ability_generalanakin_basic.png" style="width: 30px" /> Furious Slash</td><td>Deal Physical damage to target enemy. This attack can't be evaded and has +65% Defense Penetration, tripled if all allies are 501st.
+
+If this is the first ability General Skywalker uses during his turn, he immediately uses the Special ability Telekinesis, if able.
+
+Telekinesis: Deal Physical damage to target enemy. If possible, this attack will critically hit enemies with Armor Shred. If the target enemy is Dazed, reduce General Skywalker's ability cooldowns by 1.</td><td>28</td><td>97 %</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> General of the 501st</td><td>All units can't be revived.
+All 501st allies have +50% Critical Damage.
+When an enemy gains a buff, all 501st allies gain 2% Offense (stacking) until the end of the encounter.
+
+While there are other active 501st allies, General Skywalker:
+- Can't drop below 100% Health
+- Advances if he has 100% Protection and takes Cover if he has 0% Protection at the end of every turn
+- Removes all other status effects when he takes Cover
+- Leaves Cover, recovers 100% Protection, and takes a bonus turn when all other 501st allies are defeated
+
+Advance:
+- Taunt, which can't be dispelled or prevented
+- Other 501st allies can't lose Health
+Cover:
+- Can't be targeted
+- Immune to damage and status effects
+- Speed set to 0
+- Recover 10% Protection and Turn Meter at the end of every turn, doubled for allied 501st turns, which can't be prevented</td><td>29</td><td>100 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedi.png" style="width: 30px" /> The Chosen One</td><td>General Skywalker uses an additional ability during his turn.
+
+Whenever General Skywalker critically hits an enemy during his turn, increase their cooldowns by 1 (excluding raid bosses and Galactic Legends), which can't be resisted.
+
+If he is critically hit, General Skywalker dispels all debuffs on himself. Enemies attacking out of turn can't critically hit.
+
+If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses and Galactic Legends), which can't be resisted.</td><td>29</td><td>100 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Hero with no Fear</td><td>At the start of battle, General Skywalker gains 25% Defense, 15% Max Protection, and 25% Tenacity for each other 501st ally until all other 501st allies are defeated.
+
+If all allies are 501st at the start of battle, General Skywalker gains the following:
+
+- 100% counter chance and 50% Critical Chance
+
+- When all other allies are defeated, General Skywalker can't be critically hit and gains 35% Turn Meter after every enemy turn</td><td>29</td><td>100 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1, 1, 1, 0, 1, 1, 6, 2, 10, 2, 0 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 2, 1, 7, 2, 11, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.4482758620689653, 3.4482758620689653, 13.793103448275861, 17.241379310344826, 20.68965517241379, 24.137931034482754, 24.137931034482754, 27.58620689655172, 31.034482758620683, 51.72413793103448, 58.620689655172406, 93.10344827586206, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.4482758620689653, 6.896551724137931, 10.344827586206897, 13.793103448275861, 13.793103448275861, 20.689655172413794, 24.137931034482758, 48.275862068965516, 55.172413793103445, 93.10344827586206, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +363,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

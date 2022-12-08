@@ -318,14 +318,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHSIDIOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Sadistic Glee</td><td>100% Turn Meter Gain Chance, +50% Potency, and gain Max Health equal to Potency percentage</td><td>11</td><td>25 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHSIDIOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal.png" style="width: 30px" /> Sadistic Glee</td><td>Darth Sidious recovers 20% of his Max Health and gains 50% Turn Meter whenever any unit is defeated. In addition, he has +35% Evasion against Jedi attacks, +50% Potency, and gains Max Health equal to his Potency percentage.
+
+[e7e7e7]While in Territory Wars: If all allies are Sith at the start of battle, other Sith allies gain Max Health equal to half of Darth Sidious' Potency until the first time he is defeated (excludes Galactic Legends). When Darth Sidious uses Demoralizing Blows, the cooldown of the ability is reduced by 1 for each other Sith ally and Darth Sidious gains 50 Speed (stacking) for 4 turns.</td><td>11</td><td>24 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 4, 1, 1, 0, 0, 0, 1, 21, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 12, 0, 0 ],
+    y: [ 3, 1, 1, 0, 0, 0, 1, 23, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 9.090909090909092, 11.363636363636365, 13.636363636363638, 13.636363636363638, 13.636363636363638, 13.636363636363638, 15.909090909090912, 63.63636363636364, 65.9090909090909, 68.18181818181817, 70.45454545454544, 70.45454545454544, 70.45454545454544, 70.45454545454544, 70.45454545454544, 70.45454545454544, 72.7272727272727, 72.7272727272727, 72.7272727272727, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
+    y: [ 6.666666666666667, 8.88888888888889, 11.11111111111111, 11.11111111111111, 11.11111111111111, 11.11111111111111, 13.333333333333332, 64.44444444444444, 66.66666666666667, 68.8888888888889, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 71.11111111111113, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +347,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

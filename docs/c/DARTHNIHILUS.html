@@ -288,14 +288,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHNIHILUS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Strength of the Void</td><td>+50% Health Steal</td><td>1</td><td>2 %</td></tr><tr><td data-order="uniqueskill_DARTHNIHILUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_kill.png" style="width: 30px" /> Lord of Hunger</td><td>At the start of each enemy turn, Nihilus inflicts Health Down on them for 2 turns</td><td>3</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHNIHILUS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Strength of the Void</td><td>Sith allies gain 60% Offense and 150% Health Steal. Sith allies lose all Protection and gain that much Max Health. Sith allies are immune to Healing effects that aren't Health Steal and can't score Critical Hits.</td><td>1</td><td>2 %</td></tr><tr><td data-order="uniqueskill_DARTHNIHILUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_kill.png" style="width: 30px" /> Lord of Hunger</td><td>At the start of each of his turns, Nihilus inflicts Damage Over Time for 2 turns on a random enemy that doesn't have any debuffs. If all enemies are debuffed, inflict Damage Over Time on a random enemy. At the start of each enemy turn, Nihilus inflicts Health Down on them for 2 turns. When allied Darth Sion or Darth Traya are inflicted with a debuff, Nihilus gains 10% Turn Meter and +30% Max Health (stacking) until the end of the encounter.</td><td>3</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 7, 0, 0, 0, 0, 1, 1, 26, 2, 5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ],
+    y: [ 7, 0, 0, 0, 0, 1, 1, 26, 3, 5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 15.909090909090908, 15.909090909090908, 15.909090909090908, 15.909090909090908, 15.909090909090908, 18.18181818181818, 20.454545454545453, 79.54545454545455, 84.0909090909091, 95.45454545454545, 95.45454545454545, 97.72727272727272, 97.72727272727272, 97.72727272727272, 97.72727272727272, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 15.555555555555555, 15.555555555555555, 15.555555555555555, 15.555555555555555, 15.555555555555555, 17.77777777777778, 20.0, 77.77777777777777, 84.44444444444444, 95.55555555555556, 95.55555555555556, 97.77777777777779, 97.77777777777779, 97.77777777777779, 97.77777777777779, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -315,5 +315,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

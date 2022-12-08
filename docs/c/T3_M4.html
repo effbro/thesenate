@@ -313,14 +313,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_t3_m4_01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Logic Upgrade</td><td>Add Droid allies also gain 8% Potency and Critical Hit Chance when T3-M4 uses an ability. Also Droid allies have +8% Critical Damage for each debuff on the enemy team.</td><td>2</td><td>4 %</td></tr><tr><td data-order="uniqueskill_t3_m4_02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Master Gearhead</td><td>Droid allies gain 100% of T3-M4's Defense Penetration.</td><td>3</td><td>6 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_t3_m4_01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Logic Upgrade</td><td>Droid allies gain 8% Potency and 8% Critical Hit Chance (stacking) each time T3-M4 uses an ability. Also, Droid allies have +8% Critical Damage for each debuff on the enemy team.</td><td>2</td><td>4 %</td></tr><tr><td data-order="uniqueskill_t3_m4_02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Master Gearhead</td><td>T3-M4 has +100% Defense Penetration, and Droid allies gain 100% of T3-M4's Defense Penetration. Additionally, each time T3-M4 starts his turn, he has a 75% chance to inflict Target Lock for 2 turns on a random enemy who does not already have it. This Target Lock can't be evaded.
+
+[E7E7E7]While in Territory Wars: At the start of the encounter, T3-M4 gains Stealth for 2 turns, and Droid allies gain 15 Armor Penetration and 30% Max Health. Droid allies have +20% Defense for each Target Locked enemy, +20% Defense while debuffed, and +20% Defense while buffed. At the start of T3-M4's turn, inflict Target Lock for 2 turns on a random enemy who does not already have it, which can't be evaded. Then, all allies recover 5% Health and Protection for each Target Locked enemy.</td><td>3</td><td>6 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 6, 1, 0, 3, 0, 4, 10, 14, 3, 0, 3, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 ],
+    y: [ 5, 0, 0, 2, 0, 4, 12, 13, 3, 0, 4, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 12.5, 14.583333333333332, 14.583333333333332, 20.833333333333332, 20.833333333333332, 29.166666666666664, 50.0, 79.16666666666667, 85.41666666666667, 85.41666666666667, 91.66666666666667, 95.83333333333334, 95.83333333333334, 97.91666666666667, 97.91666666666667, 97.91666666666667, 97.91666666666667, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 10.638297872340425, 10.638297872340425, 10.638297872340425, 14.893617021276595, 14.893617021276595, 23.404255319148938, 48.93617021276596, 76.59574468085107, 82.97872340425532, 82.97872340425532, 91.48936170212767, 95.74468085106383, 95.74468085106383, 97.87234042553192, 97.87234042553192, 97.87234042553192, 97.87234042553192, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +342,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-11-15 12:25:35 +0000</font>
+<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
