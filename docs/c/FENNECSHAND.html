@@ -219,14 +219,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 37 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FENNECSHAND01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_makinganimpression.png" style="width: 30px" /> Making an Impression</td><td>Whenever Fennec Shand gains Tenacity Up, she gains 10% Offense (stacking) until the end of encounter, increased to 20% if The Mandalorian (Beskar Armor) is an ally. If Boba Fett, Scion of Jango is in the Leader slot, this bonus is doubled and she starts the battle with Bounty Hunter's Resolve. Whenever an ally loses Overconfident, Fennec gains 20% Turn Meter.</td><td>2</td><td>5 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 38 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FENNECSHAND01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_makinganimpression.png" style="width: 30px" /> Making an Impression</td><td>Whenever Fennec Shand gains Tenacity Up, she gains 10% Offense (stacking) until the end of encounter, increased to 20% if The Mandalorian (Beskar Armor) is an ally. If Boba Fett, Scion of Jango is in the Leader slot, this bonus is doubled and she starts the battle with Bounty Hunter's Resolve. Whenever an ally loses Overconfident, Fennec gains 20% Turn Meter.</td><td>3</td><td>8 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 23, 1, 1, 0, 1, 1, 0, 7, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0 ],
+    y: [ 23, 1, 1, 0, 1, 1, 0, 7, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 62.16216216216216, 64.86486486486487, 67.56756756756758, 67.56756756756758, 70.27027027027029, 72.972972972973, 72.972972972973, 91.89189189189192, 91.89189189189192, 91.89189189189192, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 94.59459459459462, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
+    y: [ 60.526315789473685, 63.1578947368421, 65.78947368421052, 65.78947368421052, 68.42105263157895, 71.05263157894737, 71.05263157894737, 89.47368421052632, 89.47368421052632, 89.47368421052632, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 92.10526315789474, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -246,5 +246,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
+<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

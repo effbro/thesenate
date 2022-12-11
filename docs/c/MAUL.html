@@ -313,14 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MAUL"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Dancing Shadows</td><td>All Sith allies gain 20% Evasion, gain 20% Turn Meter and Stealth for 1 turn at the start of each encounter and whenever they Evade or are Critically Hit, can't be Critically Hit while Stealthed, and gain Advantage for 2 turns whenever Stealth expires. The Stealth and Turn Meter from this ability ignores Taunting allies.</td><td>4</td><td>9 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MAUL"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_dodge.png" style="width: 30px" /> Dancing Shadows</td><td>All Sith allies gain 20% Evasion, gain 20% Turn Meter and Stealth for 1 turn at the start of each encounter and whenever they Evade or are Critically Hit, can't be Critically Hit while Stealthed, and gain Advantage for 2 turns whenever Stealth expires. The Stealth and Turn Meter from this ability ignores Taunting allies.</td><td>5</td><td>10 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 4, 0, 0, 1, 0, 1, 0, 17, 2, 4, 5, 0, 0, 0, 0, 0, 12, 1, 0, 0, 0, 0 ],
+    y: [ 4, 0, 0, 1, 0, 1, 0, 17, 2, 4, 5, 0, 0, 0, 0, 0, 12, 2, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.51063829787234, 8.51063829787234, 8.51063829787234, 10.638297872340425, 10.638297872340425, 12.76595744680851, 12.76595744680851, 48.93617021276596, 53.191489361702125, 61.702127659574465, 72.34042553191489, 72.34042553191489, 72.34042553191489, 72.34042553191489, 72.34042553191489, 72.34042553191489, 97.87234042553192, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 8.333333333333332, 8.333333333333332, 8.333333333333332, 10.416666666666664, 10.416666666666664, 12.499999999999996, 12.499999999999996, 47.91666666666667, 52.083333333333336, 60.41666666666667, 70.83333333333334, 70.83333333333334, 70.83333333333334, 70.83333333333334, 70.83333333333334, 70.83333333333334, 95.83333333333334, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
+<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

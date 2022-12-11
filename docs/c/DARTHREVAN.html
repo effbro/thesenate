@@ -224,26 +224,26 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 32 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> Lord of the Sith</td><td>Sith Empire allies are immune to Turn Meter reduction while they are debuffed, and gain 10% Critical Chance and 15 Speed for each of their own debuffs. At the start of each Sith Empire ally's turn, they gain 5 stacks of Ferocity for 2 turns.
+</script><h2>Alliance Demographic Data</h2>Based on 33 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_DARTHREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> Lord of the Sith</td><td>Sith Empire allies are immune to Turn Meter reduction while they are debuffed, and gain 10% Critical Chance and 15 Speed for each of their own debuffs. At the start of each Sith Empire ally's turn, they gain 5 stacks of Ferocity for 2 turns.
 
 If all allies are Sith Empire at the start of battle (excluding summoned allies), Sith Empire allies have +50% Critical Damage.
 
-At the end of each turn, if an enemy fell below 50% Health during that turn, inflict Deathmark on the enemy leader for 1 turn if Darth Revan is in the leader slot and not the ally slot. This Deathmark can't be copied, dispelled, evaded, or resisted.</td><td>31</td><td>97 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Conqueror</td><td>Darth Revan has +100% Defense Penetration. At the start of each Sith Empire ally's turn, dispel all Foresight on all enemies, which can't be evaded. 
+At the end of each turn, if an enemy fell below 50% Health during that turn, inflict Deathmark on the enemy leader for 1 turn if Darth Revan is in the leader slot and not the ally slot. This Deathmark can't be copied, dispelled, evaded, or resisted.</td><td>32</td><td>97 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> Conqueror</td><td>Darth Revan has +100% Defense Penetration. At the start of each Sith Empire ally's turn, dispel all Foresight on all enemies, which can't be evaded. 
 
 When a Sith Empire ally is inflicted with Ability Block or Stun, they dispel that debuff and gain Ferocity for 2 turns. 
 
-Enemies can't assist or attack again if their attack is targeting Darth Revan.</td><td>31</td><td>97 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Villain</td><td>When Darth Revan uses an ability during their turn, if the selected target is already inflicted with Deathmark, Fear, or Corrupted Battle Meditation, Darth Revan immediately uses Lacerate. 
+Enemies can't assist or attack again if their attack is targeting Darth Revan.</td><td>32</td><td>97 %</td></tr><tr><td data-order="uniqueskill_DARTHREVAN02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Villain</td><td>When Darth Revan uses an ability during their turn, if the selected target is already inflicted with Deathmark, Fear, or Corrupted Battle Meditation, Darth Revan immediately uses Lacerate. 
 
 When Fear expires on an enemy, they also dispel all buffs on themselves. 
 
-When Darth Revan's Health falls below 50%, it is equalized with the other healthiest ally.</td><td>30</td><td>94 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+When Darth Revan's Health falls below 50%, it is equalized with the other healthiest ally.</td><td>31</td><td>94 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 5, 1, 2, 0, 1, 0, 13, 0, 5, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 5, 1, 2, 0, 1, 0, 13, 0, 6, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.125, 3.125, 3.125, 3.125, 3.125, 3.125, 3.125, 6.25, 6.25, 9.375, 15.625, 31.25, 34.375, 40.625, 40.625, 43.75, 43.75, 84.375, 84.375, 100.0, 100.0, 100.0 ],
+    y: [ 3.0303030303030303, 3.0303030303030303, 3.0303030303030303, 3.0303030303030303, 3.0303030303030303, 3.0303030303030303, 3.0303030303030303, 6.0606060606060606, 6.0606060606060606, 9.09090909090909, 15.15151515151515, 30.303030303030305, 33.333333333333336, 39.3939393939394, 39.3939393939394, 42.42424242424243, 42.42424242424243, 81.81818181818181, 81.81818181818181, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -263,5 +263,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
+<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

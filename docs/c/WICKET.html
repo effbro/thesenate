@@ -382,14 +382,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 47 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WICKET01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Furtive Tactics</td><td>Wicket gains 10% Critical Damage for each living Ewok ally and each Stealthed ally. At the end of his turn, Wicket has a 50% chance to take another turn. This chance is reduced to 10% if this effect triggered in the previous turn. Whenever Wicket scores a Critical Hit, all Ewok allies recover 4% Health and 2% Protection.</td><td>14</td><td>30 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WICKET01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Furtive Tactics</td><td>Wicket gains 10% Critical Damage for each living Ewok ally and each Stealthed ally. At the end of his turn, Wicket has a 50% chance to take another turn. This chance is reduced to 10% if this effect triggered in the previous turn. Whenever Wicket scores a Critical Hit, all Ewok allies recover 4% Health and 2% Protection.</td><td>15</td><td>31 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 1, 0, 0, 0, 0, 1, 1, 1, 16, 15, 6, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0 ],
+    y: [ 3, 0, 0, 0, 0, 0, 2, 1, 1, 16, 15, 7, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.382978723404255, 8.51063829787234, 8.51063829787234, 8.51063829787234, 8.51063829787234, 8.51063829787234, 10.638297872340425, 12.76595744680851, 14.893617021276595, 48.93617021276596, 80.85106382978724, 93.61702127659575, 95.74468085106383, 95.74468085106383, 95.74468085106383, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 6.25, 6.25, 6.25, 6.25, 6.25, 6.25, 10.416666666666666, 12.5, 14.583333333333332, 47.91666666666666, 79.16666666666666, 93.74999999999999, 95.83333333333331, 95.83333333333331, 95.83333333333331, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -409,5 +409,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
+<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

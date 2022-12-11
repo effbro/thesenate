@@ -224,16 +224,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 32 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHECHO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bbecho.png" style="width: 30px" /> One That Survives</td><td>Whenever a Clone Trooper ally gains or loses a buff from a Bad Batch ally's ability, they recover 4% Health and Protection, doubled for Bad Batch allies.
+</script><h2>Alliance Demographic Data</h2>Based on 33 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHECHO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bbecho.png" style="width: 30px" /> One That Survives</td><td>Whenever a Clone Trooper ally gains or loses a buff from a Bad Batch ally's ability, they recover 4% Health and Protection, doubled for Bad Batch allies.
 
-Whenever a Bad Batch ally inflicts a debuff on an enemy, that enemy loses 8% Protection. If that enemy had less than 50% Protection and more than 50% Health, they also lose 8% Health. This effect excludes raid bosses and Galactic Legends.</td><td>6</td><td>19 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+Whenever a Bad Batch ally inflicts a debuff on an enemy, that enemy loses 8% Protection. If that enemy had less than 50% Protection and more than 50% Health, they also lose 8% Health. This effect excludes raid bosses and Galactic Legends.</td><td>7</td><td>21 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 12, 3, 4, 1, 0, 0, 1, 5, 4, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 ],
+    y: [ 12, 3, 4, 1, 0, 0, 1, 5, 4, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 37.5, 46.875, 59.375, 62.5, 62.5, 62.5, 65.625, 81.25, 93.75, 93.75, 93.75, 96.875, 96.875, 96.875, 96.875, 96.875, 96.875, 96.875, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 36.36363636363637, 45.45454545454546, 57.57575757575758, 60.60606060606061, 60.60606060606061, 60.60606060606061, 63.63636363636364, 78.7878787878788, 90.90909090909092, 90.90909090909092, 90.90909090909092, 93.93939393939395, 93.93939393939395, 93.93939393939395, 93.93939393939395, 93.93939393939395, 93.93939393939395, 96.96969696969698, 100.00000000000001, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -253,5 +253,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-08 18:32:32 +0000</font>
+<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
