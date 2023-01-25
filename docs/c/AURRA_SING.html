@@ -451,18 +451,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 38 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_AURRA_SING"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Game Plan</td><td>Bounty Hunter and Scoundrel allies have +30% Offense while Stealthed. At the start of battle, and whenever a Bounty Hunter ally defeats an enemy, all Bounty Hunter Attacker allies gain Stealth for 2 turns. When Aurra Sing is in the Leader slot, and not the Ally slot, the following Contract is active:
+</script><h2>Alliance Demographic Data</h2>Based on 42 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_AURRA_SING"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Game Plan</td><td>Bounty Hunter and Scoundrel allies have +30% Offense while Stealthed. At the start of battle, and whenever a Bounty Hunter ally defeats an enemy, all Bounty Hunter Attacker allies gain Stealth for 2 turns. When Aurra Sing is in the Leader slot, and not the Ally slot, the following Contract is active:
 
 Contract: Use an ability while buffed 10 times. (Only Bounty Hunter allies can contribute to the Contract.)
 
-Reward: All Bounty Hunter allies gain +50% Counter Chance and their Payouts are activated. Bounty Hunter allies recover 25% Protection and gain 25% Turn Meter whenever an enemy is defeated.</td><td>2</td><td>5 %</td></tr><tr><td data-order="specialskill_AURRA_SING02"><img src="https://game-assets.swgoh.gg/tex.ability_aurrasing_special02.png" style="width: 30px" /> Snipers Expertise</td><td>Deal Physical damage to target enemy. If the target is Toppled, this attack deals 200% more damage and this ability's cooldown is reset. (Only Raid Bosses can be Toppled.)</td><td>1</td><td>3 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+Reward: All Bounty Hunter allies gain +50% Counter Chance and their Payouts are activated. Bounty Hunter allies recover 25% Protection and gain 25% Turn Meter whenever an enemy is defeated.</td><td>3</td><td>7 %</td></tr><tr><td data-order="specialskill_AURRA_SING02"><img src="https://game-assets.swgoh.gg/tex.ability_aurrasing_special02.png" style="width: 30px" /> Snipers Expertise</td><td>Deal Physical damage to target enemy. If the target is Toppled, this attack deals 200% more damage and this ability's cooldown is reset. (Only Raid Bosses can be Toppled.)</td><td>3</td><td>7 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 22, 1, 2, 1, 1, 0, 2, 3, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0 ],
+    y: [ 23, 2, 2, 1, 1, 0, 2, 2, 1, 3, 0, 0, 0, 0, 0, 1, 0, 0, 4, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 57.89473684210527, 60.526315789473685, 65.78947368421052, 68.42105263157895, 71.05263157894737, 71.05263157894737, 76.3157894736842, 84.21052631578947, 89.4736842105263, 92.10526315789473, 92.10526315789473, 92.10526315789473, 92.10526315789473, 92.10526315789473, 92.10526315789473, 92.10526315789473, 94.73684210526315, 94.73684210526315, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 54.761904761904766, 59.523809523809526, 64.28571428571429, 66.66666666666667, 69.04761904761905, 69.04761904761905, 73.80952380952381, 78.57142857142857, 80.95238095238095, 88.09523809523809, 88.09523809523809, 88.09523809523809, 88.09523809523809, 88.09523809523809, 88.09523809523809, 90.47619047619047, 90.47619047619047, 90.47619047619047, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -482,5 +482,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
+<font size="-2">Generated 2023-01-25 09:15:57 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

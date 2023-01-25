@@ -372,18 +372,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 37 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHWRECKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_wrecker.png" style="width: 30px" /> Dauntless Commando</td><td>At the start of battle, Wrecker gains +20% Max Health and Max Protection for each other Bad Batch ally. Wrecker gains 1 stack of Fury for each Clone Trooper and each Bad Batch ally. Whenever Wrecker gains Stealth, he dispels it and gains Taunt for 1 turn.
+</script><h2>Alliance Demographic Data</h2>Based on 40 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHWRECKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_wrecker.png" style="width: 30px" /> Dauntless Commando</td><td>At the start of battle, Wrecker gains +20% Max Health and Max Protection for each other Bad Batch ally. Wrecker gains 1 stack of Fury for each Clone Trooper and each Bad Batch ally. Whenever Wrecker gains Stealth, he dispels it and gains Taunt for 1 turn.
 
 Whenever Wrecker takes damage from an enemy, he gains 1 stack of Fury. At 10 stacks, he loses all stacks of Fury and gains Furious for 2 turns, which can't be copied, dispelled, or prevented. When Wrecker gains Furious, he gains Taunt for 1 turn.
 
-Furious: Abilities gain additional effects; can't gain Fury</td><td>7</td><td>19 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+Furious: Abilities gain additional effects; can't gain Fury</td><td>8</td><td>20 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 13, 1, 4, 3, 1, 0, 4, 6, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0 ],
+    y: [ 13, 1, 4, 2, 0, 0, 5, 8, 0, 0, 1, 2, 0, 1, 0, 0, 0, 2, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 35.13513513513514, 37.83783783783784, 48.648648648648646, 56.75675675675676, 59.45945945945946, 59.45945945945946, 70.27027027027027, 86.48648648648648, 86.48648648648648, 86.48648648648648, 91.89189189189189, 94.5945945945946, 94.5945945945946, 94.5945945945946, 94.5945945945946, 94.5945945945946, 94.5945945945946, 97.2972972972973, 97.2972972972973, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 32.5, 35.0, 45.0, 50.0, 50.0, 50.0, 62.5, 82.5, 82.5, 82.5, 85.0, 90.0, 90.0, 92.5, 92.5, 92.5, 92.5, 97.5, 97.5, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -403,5 +403,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
+<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

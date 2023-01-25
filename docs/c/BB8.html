@@ -224,14 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BB801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Roll with the Punches</td><td>BB-8 has 80% Counter Chance. When BB-8 attacks out of turn, he calls a random Resistance ally to Assist.</td><td>7</td><td>16 %</td></tr><tr><td data-order="uniqueskill_BB802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Self-Preservation Protocol</td><td>When BB-8 takes damage he has a 50% chance to gain Foresight for 2 turns. At the start of each encounter, if BB-8 is active, Droid allies gain 8% Turn Meter for each active Droid ally. When BB-8 Evades, Droid allies recover 8% Health and 8% Protection.</td><td>5</td><td>11 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 45 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BB801"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Roll with the Punches</td><td>BB-8 has 80% Counter Chance. When BB-8 attacks out of turn, he calls a random Resistance ally to Assist.</td><td>9</td><td>20 %</td></tr><tr><td data-order="uniqueskill_BB802"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Self-Preservation Protocol</td><td>When BB-8 takes damage he has a 50% chance to gain Foresight for 2 turns. At the start of each encounter, if BB-8 is active, Droid allies gain 8% Turn Meter for each active Droid ally. When BB-8 Evades, Droid allies recover 8% Health and 8% Protection.</td><td>6</td><td>13 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 12, 0, 0, 0, 0, 3, 1, 10, 6, 2, 4, 1, 0, 0, 0, 0, 0, 1, 0, 4, 0, 0 ],
+    y: [ 9, 0, 0, 0, 0, 4, 1, 11, 6, 1, 2, 4, 0, 0, 1, 0, 0, 1, 0, 5, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 27.27272727272727, 27.27272727272727, 27.27272727272727, 27.27272727272727, 27.27272727272727, 34.090909090909086, 36.36363636363636, 59.090909090909086, 72.72727272727272, 77.27272727272727, 86.36363636363636, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 88.63636363636363, 90.90909090909089, 90.90909090909089, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 20.0, 20.0, 20.0, 20.0, 20.0, 28.88888888888889, 31.11111111111111, 55.55555555555556, 68.88888888888889, 71.11111111111111, 75.55555555555556, 84.44444444444444, 84.44444444444444, 84.44444444444444, 86.66666666666667, 86.66666666666667, 86.66666666666667, 88.8888888888889, 88.8888888888889, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -251,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
+<font size="-2">Generated 2023-01-25 09:15:57 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -293,14 +293,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 30 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_YOUNGCHEWBACCA02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Ferocious Protector</td><td>While Chewbacca is buffed, he has 100% Counter Chance. At the end of each turn while Chewbacca is buffed, if any ally took damage from an attack and Chewbacca did not, he recovers Protection equal to 10% of his Max Health and other Scoundrel allies recover half of that amount. When Chewbacca recovers to Max Protection this way, he becomes Prepared. When another light side Scoundrel ally is defeated, Revive that ally at 60% Health, if Chewbacca is Prepared. Then, Chewbacca is no longer Prepared.</td><td>3</td><td>10 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 32 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_YOUNGCHEWBACCA02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Ferocious Protector</td><td>While Chewbacca is buffed, he has 100% Counter Chance. At the end of each turn while Chewbacca is buffed, if any ally took damage from an attack and Chewbacca did not, he recovers Protection equal to 10% of his Max Health and other Scoundrel allies recover half of that amount. When Chewbacca recovers to Max Protection this way, he becomes Prepared. When another light side Scoundrel ally is defeated, Revive that ally at 60% Health, if Chewbacca is Prepared. Then, Chewbacca is no longer Prepared.</td><td>4</td><td>12 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 20, 0, 0, 1, 2, 0, 3, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
+    y: [ 20, 0, 0, 1, 2, 1, 3, 0, 0, 0, 1, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 66.66666666666666, 66.66666666666666, 66.66666666666666, 69.99999999999999, 76.66666666666666, 76.66666666666666, 86.66666666666666, 86.66666666666666, 86.66666666666666, 86.66666666666666, 89.99999999999999, 93.33333333333331, 93.33333333333331, 93.33333333333331, 93.33333333333331, 96.66666666666664, 96.66666666666664, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
+    y: [ 62.5, 62.5, 62.5, 65.625, 71.875, 75.0, 84.375, 84.375, 84.375, 84.375, 87.5, 93.75, 93.75, 93.75, 93.75, 96.875, 96.875, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -320,5 +320,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
+<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

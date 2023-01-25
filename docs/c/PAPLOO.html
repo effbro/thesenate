@@ -431,14 +431,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAPLOO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Don't Hold Back</td><td>Whenever Paploo gains a status effect, he recovers 5% Health and Protection. Whenever Paploo gains Stealth, dispel Stealth and gain Taunt for 2 Turns. Paploo has +25% Speed whenever he does not have Taunt active.</td><td>17</td><td>35 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_PAPLOO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Don't Hold Back</td><td>Whenever Paploo gains a status effect, he recovers 5% Health and Protection. Whenever Paploo gains Stealth, dispel Stealth and gain Taunt for 2 Turns. Paploo has +25% Speed whenever he does not have Taunt active.</td><td>20</td><td>40 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 1, 1, 0, 10, 5, 21, 7, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 0, 0, 0, 10, 4, 22, 10, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.083333333333333, 4.166666666666666, 4.166666666666666, 25.0, 35.41666666666667, 79.16666666666667, 93.75, 95.83333333333333, 95.83333333333333, 95.83333333333333, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 22.0, 30.0, 74.0, 94.0, 96.0, 96.0, 96.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -458,5 +458,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2022-12-11 13:54:49 +0000</font>
+<font size="-2">Generated 2023-01-25 09:15:57 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
