@@ -298,22 +298,22 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JANGOFETT"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Anything to Get Ahead</td><td>Scoundrel allies have +30 Speed. Enemies have -20% Potency for each debuff on all Bounty Hunter allies and -40% Tenacity. Enemies that are Burning can't gain bonus Turn Meter. Bounty Hunters have +35% Offense while they have Bounty Hunter's Resolve. When Jango Fett is in the Leader slot, and not the Ally slot, the following Contract is active:
+</script><h2>Alliance Demographic Data</h2>Based on 100 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JANGOFETT"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Anything to Get Ahead</td><td>Scoundrel allies have +30 Speed. Enemies have -20% Potency for each debuff on all Bounty Hunter allies and -40% Tenacity. Enemies that are Burning can't gain bonus Turn Meter. Bounty Hunters have +35% Offense while they have Bounty Hunter's Resolve. When Jango Fett is in the Leader slot, and not the Ally slot, the following Contract is active:
 
 Contract: Damage a debuffed enemy 20 times. Enemies must be debuffed before the start of an attack to count progress. (Only Bounty Hunter allies can contribute to the Contract.)
 
-Reward: All Bounty Hunters gain Bounty Hunter's Resolve at the start of their next turn and +25% Critical Chance. All Bounty Hunters have their Payouts activated.</td><td>6</td><td>12 %</td></tr><tr><td data-order="uniqueskill_JANGOFETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Notorious Reputation</td><td>Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.
+Reward: All Bounty Hunters gain Bounty Hunter's Resolve at the start of their next turn and +25% Critical Chance. All Bounty Hunters have their Payouts activated.</td><td>11</td><td>11 %</td></tr><tr><td data-order="uniqueskill_JANGOFETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Notorious Reputation</td><td>Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.
 
 At the start of encounter, and whenever he defeats an enemy, Jango Fett recovers 100% Protection and gains Bounty Hunter's Resolve until he is defeated.
 
-Bounty Hunter's Resolve: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.</td><td>21</td><td>42 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+Bounty Hunter's Resolve: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.</td><td>31</td><td>31 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 0, 2, 1, 3, 2, 10, 11, 0, 0, 0, 1, 0, 2, 2, 15, 0, 0 ],
+    y: [ 4, 1, 0, 1, 0, 0, 5, 5, 7, 4, 25, 24, 0, 0, 0, 2, 0, 2, 2, 18, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 6.0, 8.0, 14.0, 18.0, 38.0, 60.0, 60.0, 60.0, 60.0, 62.0, 62.0, 66.0, 70.0, 100.0, 100.0, 100.0 ],
+    y: [ 4.0, 5.0, 5.0, 6.0, 6.0, 6.0, 11.0, 16.0, 23.0, 27.0, 52.0, 76.0, 76.0, 76.0, 76.0, 78.0, 78.0, 80.0, 82.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -333,5 +333,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -293,20 +293,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 4 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BOBAFETTSCION01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bobafett.png" style="width: 30px" /> Fett Legacy</td><td>Boba Fett, Scion of Jango has +50% Offense. At the start of the encounter, Boba Fett, Scion of Jango gains Bounty Hunter's Resolve until he is defeated.
+</script><h2>Alliance Demographic Data</h2>Based on 5 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BOBAFETTSCION01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_bobafett.png" style="width: 30px" /> Fett Legacy</td><td>Boba Fett, Scion of Jango has +50% Offense. At the start of the encounter, Boba Fett, Scion of Jango gains Bounty Hunter's Resolve until he is defeated.
 
 Whenever Boba Fett, Scion of Jango gains a stack of Momentum, he gains 5% Turn Meter. Whenever he scores a critical hit, he gains a stack of Momentum for 3 turns which can't be copied, dispelled, or prevented.
 
 If Boba Fett, Scion of Jango uses the same Special ability three turns in a row, that ability becomes Blocked for 1 turn.
 
-[e7e7e7]While in Territory Wars: Boba Fett is immune to enemy Ability Block and Stun, and whenever he defeats an enemy, he recovers 100% Protection and gains Bounty Hunter's Resolve until he's defeated. Double Action, Dual Barrage, and Bounty Breaker generate an additional stack of Momentum when used. Bounty Breaker's debuffs can't be be resisted or dispelled.</td><td>2</td><td>50 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[e7e7e7]While in Territory Wars: Boba Fett is immune to enemy Ability Block and Stun, and whenever he defeats an enemy, he recovers 100% Protection and gains Bounty Hunter's Resolve until he's defeated. Double Action, Dual Barrage, and Bounty Breaker generate an additional stack of Momentum when used. Bounty Breaker's debuffs can't be be resisted or dispelled.</td><td>2</td><td>40 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
+    y: [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 25.0, 25.0, 50.0, 50.0, 50.0, 50.0, 75.0, 75.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 40.0, 40.0, 60.0, 60.0, 60.0, 60.0, 80.0, 80.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -326,5 +326,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:57 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

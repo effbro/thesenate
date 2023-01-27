@@ -372,20 +372,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 41 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_EMBO"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_seizetheday.png" style="width: 30px" /> The Quiet Assassin</td><td>All Bounty Hunters gain +50% Counter Chance and +50% Health Steal. When a Bounty Hunter ally scores a Critical Hit during their turn, they gain Offense Up for 1 turn. When Embo is in the Leader slot, and not the Ally slot, the following Contract is active:
+</script><h2>Alliance Demographic Data</h2>Based on 81 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_EMBO"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_seizetheday.png" style="width: 30px" /> The Quiet Assassin</td><td>All Bounty Hunters gain +50% Counter Chance and +50% Health Steal. When a Bounty Hunter ally scores a Critical Hit during their turn, they gain Offense Up for 1 turn. When Embo is in the Leader slot, and not the Ally slot, the following Contract is active:
 
 Contract: Damage an enemy without buffs 15 times (Only Bounty Hunter allies can contribute to the Contract.)
 
-Reward: All Bounty Hunter allies gain +50% Offense. When a Bounty Hunter ally uses a basic ability, they deal bonus damage equal to 7% of the target's Max Protection.</td><td>3</td><td>7 %</td></tr><tr><td data-order="uniqueskill_EMBO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_embo.png" style="width: 30px" /> Way of the Kyuzo</td><td>Embo can't be critically hit. While Embo has Protection he gains +30% Offense, while Embo has no Protection he gains +30% Critical Chance. When Embo receives damage from an enemy's attack, if he has no Protection, he gains Foresight for 2 turns.
+Reward: All Bounty Hunter allies gain +50% Offense. When a Bounty Hunter ally uses a basic ability, they deal bonus damage equal to 7% of the target's Max Protection.</td><td>5</td><td>6 %</td></tr><tr><td data-order="uniqueskill_EMBO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_embo.png" style="width: 30px" /> Way of the Kyuzo</td><td>Embo can't be critically hit. While Embo has Protection he gains +30% Offense, while Embo has no Protection he gains +30% Critical Chance. When Embo receives damage from an enemy's attack, if he has no Protection, he gains Foresight for 2 turns.
 
-[E7E7E7]While in Territory Wars: Bounty Hunter allies gain +40% Max Protection. At the end of Embo's turn, Bounty Hunter allies recover Protection equal to 25% of Embo's Max Protection, doubled for Embo. While Embo has Protection, all Bounty Hunter allies gain +30% Defense and 5% Turn Meter when a Bounty Hunter ally receives damage while debuffed.</td><td>7</td><td>17 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in Territory Wars: Bounty Hunter allies gain +40% Max Protection. At the end of Embo's turn, Bounty Hunter allies recover Protection equal to 25% of Embo's Max Protection, doubled for Embo. While Embo has Protection, all Bounty Hunter allies gain +30% Defense and 5% Turn Meter when a Bounty Hunter ally receives damage while debuffed.</td><td>9</td><td>11 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 25, 0, 0, 0, 1, 3, 1, 3, 1, 0, 0, 1, 1, 2, 0, 0, 0, 2, 0, 1, 0, 0 ],
+    y: [ 56, 0, 1, 2, 1, 4, 3, 3, 2, 0, 0, 3, 1, 2, 0, 0, 0, 2, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 60.97560975609756, 60.97560975609756, 60.97560975609756, 60.97560975609756, 63.41463414634146, 70.73170731707317, 73.17073170731707, 80.48780487804878, 82.92682926829268, 82.92682926829268, 82.92682926829268, 85.36585365853658, 87.80487804878048, 92.68292682926828, 92.68292682926828, 92.68292682926828, 92.68292682926828, 97.56097560975608, 97.56097560975608, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 69.1358024691358, 69.1358024691358, 70.37037037037037, 72.8395061728395, 74.07407407407408, 79.01234567901234, 82.71604938271605, 86.41975308641976, 88.8888888888889, 88.8888888888889, 88.8888888888889, 92.59259259259261, 93.82716049382718, 96.29629629629632, 96.29629629629632, 96.29629629629632, 96.29629629629632, 98.76543209876546, 98.76543209876546, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -405,5 +405,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

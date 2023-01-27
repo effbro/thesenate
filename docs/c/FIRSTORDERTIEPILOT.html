@@ -308,7 +308,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTIEPILOT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Keen Eye</td><td>First Order TIE Pilot has +30% Critical Chance and +30% Critical Damage, and gains Advantage for 3 turns whenever an enemy falls below 100% Health. First Order TIE Pilot has a 70% chance to gain Foresight for 2 turns whenever he loses Advantage.
+</script><h2>Alliance Demographic Data</h2>Based on 100 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_FIRSTORDERTIEPILOT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Keen Eye</td><td>First Order TIE Pilot has +30% Critical Chance and +30% Critical Damage, and gains Advantage for 3 turns whenever an enemy falls below 100% Health. First Order TIE Pilot has a 70% chance to gain Foresight for 2 turns whenever he loses Advantage.
 
 [E7E7E7]While in Grand Arenas if there are no Galactic Legend allies and all allies are First Order: First Order TIE Pilot instead has 100% chance to gain Foresight. At the start of the encounter:
 
@@ -317,14 +317,14 @@ Plotly.newPlot('mc-1', traces, layout)
 - At the start of the round, if an ally doesn't have Advantage, they have +100% Tenacity until they gain Advantage
 - Whenever an ally loses Advantage, they recover 20% Health and Protection
 - Whenever First Order TIE Pilot gains bonus Turn Meter, they gain Advantage for 1 turn if they didn't already have it
-- Whenever First Order TIE Pilot gains Foresight, all allies gain Foresight for 2 turns</td><td>16</td><td>32 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+- Whenever First Order TIE Pilot gains Foresight, all allies gain Foresight for 2 turns</td><td>27</td><td>27 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 12, 0, 0, 3, 0, 3, 3, 5, 1, 2, 1, 0, 0, 0, 0, 19, 1, 0, 0, 0, 0, 0 ],
+    y: [ 28, 0, 0, 3, 3, 8, 5, 9, 3, 4, 2, 5, 0, 0, 0, 27, 2, 1, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 24.0, 24.0, 24.0, 30.0, 30.0, 36.0, 42.0, 52.0, 54.0, 58.0, 60.0, 60.0, 60.0, 60.0, 60.0, 98.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 28.000000000000004, 28.000000000000004, 28.000000000000004, 31.000000000000004, 34.0, 42.0, 47.0, 56.0, 59.0, 63.0, 65.0, 70.0, 70.0, 70.0, 70.0, 97.0, 99.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -344,5 +344,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:57 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -308,20 +308,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 49 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ADMIRALPIETT02"><img src="https://game-assets.swgoh.gg/tex.ability_piett_special02.png" style="width: 30px" /> Suborbital Strike</td><td>Dispel all buffs on Light Side enemies. Deal Physical damage to all enemies and inflict Daze for 2 turns. Allies with Inevitable Failure gain 2 stacks. If this attack defeats an enemy, inflict Fear on all enemies for 1 turn and allies with Inevitable Failure gain 5 stacks. This Fear can't be copied, dispelled, or resisted.</td><td>33</td><td>67 %</td></tr><tr><td data-order="uniqueskill_ADMIRALPIETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_assist.png" style="width: 30px" /> The Emperor's Trap</td><td>Admiral Piett has +60% counter chance. Piett gains 5% Turn Meter whenever another Empire ally takes damage.
+</script><h2>Alliance Demographic Data</h2>Based on 96 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ADMIRALPIETT02"><img src="https://game-assets.swgoh.gg/tex.ability_piett_special02.png" style="width: 30px" /> Suborbital Strike</td><td>Dispel all buffs on Light Side enemies. Deal Physical damage to all enemies and inflict Daze for 2 turns. Allies with Inevitable Failure gain 2 stacks. If this attack defeats an enemy, inflict Fear on all enemies for 1 turn and allies with Inevitable Failure gain 5 stacks. This Fear can't be copied, dispelled, or resisted.</td><td>45</td><td>47 %</td></tr><tr><td data-order="uniqueskill_ADMIRALPIETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_assist.png" style="width: 30px" /> The Emperor's Trap</td><td>Admiral Piett has +60% counter chance. Piett gains 5% Turn Meter whenever another Empire ally takes damage.
 
 Whenever an Empire ally begins a turn or attacks out of turn, all Empire allies gain a stack of The Emperor's Trap until the start of the next enemy turn, non-Empire ally's turn, or the end of battle. The Emperor's Trap can't be copied, dispelled, or prevented.
 
 If Darth Vader is an ally: Darth Vader and Admiral Piett have +20% Accuracy, Potency, and Tenacity.
 
-The Emperor's Trap: +6% Offense and Potency per stack</td><td>34</td><td>69 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+The Emperor's Trap: +6% Offense and Potency per stack</td><td>58</td><td>60 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 7, 0, 0, 0, 1, 1, 0, 3, 3, 0, 1, 1, 0, 2, 0, 2, 0, 5, 2, 0, 19, 2 ],
+    y: [ 25, 1, 1, 0, 1, 1, 1, 6, 4, 7, 2, 5, 0, 2, 0, 3, 0, 7, 1, 1, 26, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 14.285714285714285, 14.285714285714285, 14.285714285714285, 14.285714285714285, 16.3265306122449, 18.367346938775512, 18.367346938775512, 24.48979591836735, 30.612244897959187, 30.612244897959187, 32.6530612244898, 34.69387755102041, 34.69387755102041, 38.775510204081634, 38.775510204081634, 42.85714285714286, 42.85714285714286, 53.06122448979592, 57.142857142857146, 57.142857142857146, 95.91836734693878, 100.0 ],
+    y: [ 26.041666666666668, 27.083333333333336, 28.125000000000004, 28.125000000000004, 29.16666666666667, 30.20833333333334, 31.250000000000007, 37.50000000000001, 41.66666666666667, 48.958333333333336, 51.04166666666667, 56.25000000000001, 56.25000000000001, 58.33333333333334, 58.33333333333334, 61.45833333333334, 61.45833333333334, 68.75000000000001, 69.79166666666669, 70.83333333333336, 97.91666666666669, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -341,5 +341,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

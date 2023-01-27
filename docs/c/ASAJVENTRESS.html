@@ -303,16 +303,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 50 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_ASAJVENTRESS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Nightsister Swiftness</td><td>Nightsister allies have +30 Speed, +30% Offense, gain 50% Turn Meter when they fall below 100% Health, and have a 50% chance to remove 20% Turn Meter when they damage an enemy. This Turn Meter removal can't be Resisted.</td><td>9</td><td>18 %</td></tr><tr><td data-order="uniqueskill_ASAJVENTRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Rampage</td><td>When any ally or enemy is defeated, Asajj gains 35% Turn Meter, and, gains 15% Offense, 15% Critical Chance, and 5% Max Health (stacking) until the end of the encounter. Asajj has +15 Speed for each enemy with no buffs.
+</script><h2>Alliance Demographic Data</h2>Based on 98 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_ASAJVENTRESS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Nightsister Swiftness</td><td>Nightsister allies have +30 Speed, +30% Offense, gain 50% Turn Meter when they fall below 100% Health, and have a 50% chance to remove 20% Turn Meter when they damage an enemy. This Turn Meter removal can't be Resisted.</td><td>12</td><td>12 %</td></tr><tr><td data-order="uniqueskill_ASAJVENTRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Rampage</td><td>When any ally or enemy is defeated, Asajj gains 35% Turn Meter, and, gains 15% Offense, 15% Critical Chance, and 5% Max Health (stacking) until the end of the encounter. Asajj has +15 Speed for each enemy with no buffs.
 
-[E7E7E7]While in Grand Arenas: Nightsister allies gain 30% Max Health, Potency, and Tenacity. When any ally or enemy is defeated, all Nightsister allies gain 10% Turn Meter, recover 25% Protection, and the cooldown of Endless Wrath is reset. When Asajj uses Endless Wrath, inflict Healing Immunity on all enemies for 2 turns and reduce their Defense and Max Health by 4% for the rest of the encounter (excludes Galactic Legends). Asajj has +10% Critical Damage for each enemy with debuffs.</td><td>22</td><td>44 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in Grand Arenas: Nightsister allies gain 30% Max Health, Potency, and Tenacity. When any ally or enemy is defeated, all Nightsister allies gain 10% Turn Meter, recover 25% Protection, and the cooldown of Endless Wrath is reset. When Asajj uses Endless Wrath, inflict Healing Immunity on all enemies for 2 turns and reduce their Defense and Max Health by 4% for the rest of the encounter (excludes Galactic Legends). Asajj has +10% Critical Damage for each enemy with debuffs.</td><td>30</td><td>31 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 1, 1, 3, 0, 0, 5, 31, 0, 0, 2, 3, 2, 2, 0, 0, 0, 0 ],
+    y: [ 6, 0, 1, 0, 5, 2, 2, 18, 3, 4, 8, 37, 0, 0, 2, 4, 3, 2, 1, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 4.0, 10.0, 10.0, 10.0, 20.0, 82.0, 82.0, 82.0, 86.0, 92.0, 96.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
+    y: [ 6.122448979591836, 6.122448979591836, 7.142857142857142, 7.142857142857142, 12.244897959183673, 14.285714285714285, 16.3265306122449, 34.69387755102041, 37.755102040816325, 41.83673469387755, 50.0, 87.75510204081633, 87.75510204081633, 87.75510204081633, 89.79591836734694, 93.87755102040816, 96.93877551020408, 98.9795918367347, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -332,5 +332,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

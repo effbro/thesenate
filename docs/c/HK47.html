@@ -298,7 +298,7 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 48 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HK4701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Self-Reconstruction</td><td>When a buff expires on an enemy, HK-47 recovers 5% Health and 5% Protection. When HK-47 uses an ability during his turn, it deals 25% more damage if the target has Deathmark or Fear.</td><td>19</td><td>40 %</td></tr><tr><td data-order="uniqueskill_HK4702"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Loyalty to the Maker</td><td>If HK-47's leader is Darth Revan, HK-47 has the following:
+</script><h2>Alliance Demographic Data</h2>Based on 90 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HK4701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Self-Reconstruction</td><td>When a buff expires on an enemy, HK-47 recovers 5% Health and 5% Protection. When HK-47 uses an ability during his turn, it deals 25% more damage if the target has Deathmark or Fear.</td><td>24</td><td>27 %</td></tr><tr><td data-order="uniqueskill_HK4702"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Loyalty to the Maker</td><td>If HK-47's leader is Darth Revan, HK-47 has the following:
 
 - +50% Defense, Offense, Potency, and Tenacity
 
@@ -306,14 +306,14 @@ Plotly.newPlot('mc-1', traces, layout)
 
 - Cooldown of Assassination Protocol is reset the first time another Sith Empire ally is defeated
 
-- Enemies with Protection Up can't gain bonus Turn Meter</td><td>17</td><td>35 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+- Enemies with Protection Up can't gain bonus Turn Meter</td><td>21</td><td>23 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 5, 1, 1, 1, 1, 0, 3, 0, 3, 0, 12, 6, 2, 1, 1, 4, 4, 2, 0, 1, 0, 0 ],
+    y: [ 20, 1, 2, 1, 4, 0, 6, 1, 4, 3, 17, 11, 2, 1, 1, 7, 4, 4, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 10.416666666666668, 12.5, 14.583333333333332, 16.666666666666664, 18.749999999999996, 18.749999999999996, 24.999999999999996, 24.999999999999996, 31.249999999999996, 31.249999999999996, 56.25, 68.75, 72.91666666666667, 75.0, 77.08333333333333, 85.41666666666666, 93.74999999999999, 97.91666666666666, 97.91666666666666, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 22.22222222222222, 23.333333333333332, 25.555555555555554, 26.666666666666664, 31.111111111111107, 31.111111111111107, 37.77777777777777, 38.888888888888886, 43.33333333333333, 46.666666666666664, 65.55555555555556, 77.77777777777777, 80.0, 81.11111111111111, 82.22222222222223, 90.0, 94.44444444444444, 98.88888888888889, 98.88888888888889, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -333,5 +333,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-25 09:15:58 +0000</font>
+<font size="-2">Generated 2023-01-27 22:08:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

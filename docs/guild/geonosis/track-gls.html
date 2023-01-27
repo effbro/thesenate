@@ -1,0 +1,73 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script><title>Guild Reports: Upcoming GLs Progress Tracker</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Upcoming GLs Progress Tracker</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="index.html">THE SENATE ??Geonosis??</a>
+</div>
+<br/><h2>Upcoming GLs Progress Tracker THE SENATE ??Geonosis??</h2>
+
+<p>
+Progress on close GL unlocks.
+
+<p>
+<button onclick="$('.complete').hide(); $('.working').show()">hide completed</button>
+<button onclick="$('.complete').show(); $('.working').hide()">hide incomplete</button>
+<button onclick="$('.complete').show(); $('.working').show()">show all</button>
+
+<br/>
+    
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script><script>
+$(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search)
+    var show = urlParams.get('show')
+    if (show == "working") {
+        $('.complete').hide()
+    } else if (show == "complete") {
+        $('.working').hide()
+    }
+});
+</script><table class="stripe" id="stats"><thead><th>Player</th><th>Ally Code</th><th>Starting Gear Needed</th><th>Progress</th><th>Current Gear Needed</th><th>Team</th></thead><tr class="working" style=""><td>Tyler Sahin</td><td>231345184</td><td>18</td><td>0</td><td>18</td><td><b>Jedi Master Luke Skywalker</b>: Old Ben, <b>JTR R2</b>, C-3PO, <b>Mon Mothma G10</b>, Chewpio, JKL, <b>R2-D2 R2</b>, Han, Chewbacca, <b>Rebel Y-wing 6&#9733;</b>, Leia, HYoda, Wedge, Biggs, Lando</td></tr><tr class="working" style=""><td>Dima</td><td>598159137</td><td>48</td><td>0</td><td>48</td><td><b>Sith Eternal Emperor</b>: <b>EP R6</b>, Vader, <b>RG G12</b>, Piett, <b>Krennic G8</b>, <b>Sidious G12</b>, Darth Maul, <b>Dooku G12</b>, <b>Sith Marauder R5</b>, Imperial TIE Bomber, JKA, <b>Thrawn G12</b>, Tarkin, <b>Veers G12</b>, <b>Starck G10</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>FiftyMetres</td><td>277948243</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 5&#9733;</b></td></tr><tr class="working" style=""><td>Jayck Ostra</td><td>441168491</td><td>10</td><td>0</td><td>10</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, <b>FOO G12</b>, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, <b>Vet Han G12</b>, EP, <b>Finalizer 0&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>Aldous Huxley</td><td>578178639</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 5&#9733;</b></td></tr><tr class="working" style=""><td>Clan Skirata</td><td>547353193</td><td>20</td><td>0</td><td>20</td><td><b>Jedi Master Kenobi</b>: <b>GK R7</b>, <b>Bo-Katan G12</b>, Aayla, Mace, <b>Negotiator 0&#9733;</b>, GG, <b>Wat Tambor G11 5&#9733;</b>, MagnaGuard, Clone Sergeant, QGJ, <b>GMY R6</b>, Jango, <b>Shaak Ti R5</b>, Cad, Cody</td></tr><tr class="working" style=""><td>Clan Skirata</td><td>547353193</td><td>49</td><td>0</td><td>49</td><td><b>Sith Eternal Emperor</b>: <b>EP R5</b>, <b>Vader R6</b>, RG, <b>Piett G12</b>, <b>Krennic G11</b>, <b>Sidious G12</b>, <b>Darth Maul G12</b>, Dooku, <b>Sith Marauder G12</b>, <b>Imperial TIE Bomber 5&#9733;</b>, <b>JKA R5</b>, <b>Thrawn R3</b>, Tarkin, <b>Veers G12</b>, <b>Starck G12</b></td></tr><tr class="working" style=""><td>Solid Steps</td><td>538383598</td><td>24</td><td>0</td><td>24</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, <b>FOST G12</b>, FOE, FOO, <b>FOTP G12</b>, Phasma, Hux, <b>FOSFTP G12</b>, <b>Sith Trooper G12</b>, <b>Vet Han G12</b>, EP, <b>Finalizer 0&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>Zekemo</td><td>633931192</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 5&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>Verkus</td><td>643612493</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 5&#9733;</b></td></tr><tr class="working" style=""><td>JΞDΙ ΚΝΙGHT</td><td>677444398</td><td>10</td><td>0</td><td>10</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, <b>Sith Trooper G12</b>, <b>Vet Han G12</b>, EP, <b>Finalizer 4&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>RafaSerinet</td><td>837425214</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 6&#9733;</b></td></tr><tr class="working" style=""><td>iThunderPanda</td><td>519344946</td><td>47</td><td>0</td><td>47</td><td><b>Supreme Leader Kylo Ren</b>: <b>KRU R5</b>, Kylo, <b>FOST G12</b>, <b>FOE G12</b>, FOO, <b>FOTP G12</b>, <b>Phasma G12</b>, Hux, <b>FOSFTP G12</b>, <b>Sith Trooper G10 6&#9733;</b>, <b>Vet Han G8</b>, <b>EP R4</b>, <b>Finalizer 5&#9733;</b></td></tr><tr class="working" style=""><td>kebabbroodje</td><td>748158886</td><td>17</td><td>0</td><td>17</td><td><b>Supreme Leader Kylo Ren</b>: KRU, <b>Kylo R5</b>, FOST, FOE, FOO, FOTP, Phasma, <b>Hux R3</b>, FOSFTP, <b>Sith Trooper G12</b>, <b>Vet Han G11 5&#9733;</b>, <b>EP R5</b>, <b>Finalizer 0&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>IAreTrev</td><td>478475664</td><td>0</td><td>0</td><td>0</td><td><b>Jedi Master Kenobi</b>: GK, Bo-Katan, Aayla, Mace, Negotiator, GG, Wat Tambor, MagnaGuard, Clone Sergeant, QGJ, GMY, Jango, Shaak Ti, Cad, Cody</td></tr><tr class="complete" style="background-color: #ceebfd;"><td>IAreTrev</td><td>478475664</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, <b>Finalizer 5&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>IAreTrev</td><td>478475664</td><td>0</td><td>0</td><td>0</td><td><b>Sith Eternal Emperor</b>: EP, Vader, RG, Piett, Krennic, Sidious, Darth Maul, Dooku, Sith Marauder, Imperial TIE Bomber, JKA, Thrawn, Tarkin, Veers, Starck</td></tr><tr class="working" style=""><td>IAreTrev</td><td>478475664</td><td>59</td><td>0</td><td>59</td><td><b>Jedi Master Luke Skywalker</b>: <b>Old Ben G9</b>, <b>JTR G12</b>, C-3PO, <b>Mon Mothma G1 6&#9733;</b>, Chewpio, JKL, <b>R2-D2 G12</b>, <b>Han R5</b>, <b>Chewbacca R5</b>, <b>Rebel Y-wing 0&#9733;</b>, <b>Leia G11</b>, HYoda, <b>Wedge G12</b>, <b>Biggs G12</b>, <b>Lando R3</b></td></tr><tr class="working" style=""><td>MickeyKnight</td><td>524986762</td><td>45</td><td>0</td><td>45</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, <b>FOST G12</b>, <b>FOE G12</b>, <b>FOO G12</b>, <b>FOTP G12</b>, <b>Phasma G12</b>, Hux, <b>FOSFTP G12</b>, <b>Sith Trooper G12</b>, <b>Vet Han G11</b>, <b>EP R5</b>, <b>Finalizer 4&#9733;</b></td></tr><tr class="complete" style="background-color: #ceebfd;"><td>ShinyDemon</td><td>767761876</td><td>0</td><td>0</td><td>0</td><td><b>Jedi Master Kenobi</b>: GK, Bo-Katan, Aayla, Mace, Negotiator, GG, Wat Tambor, MagnaGuard, Clone Sergeant, QGJ, GMY, Jango, Shaak Ti, Cad, Cody</td></tr><tr class="working" style=""><td>ShinyDemon</td><td>767761876</td><td>10</td><td>0</td><td>10</td><td><b>Jabba the Hutt</b>: Krrsantan, Han, Gamorrean Guard, Greedo, Skiff Guard (Lando Calrissian), JKL, <b>Jawa G11</b>, <b>URoRRuR'R'R G12</b>, C-3PO, Boushh (Leia Organa), Aurra, Fennec Shand, Boba, Mob Enforcer, Outrider</td></tr><tr class="complete" style="background-color: #ceebfd;"><td>ShinyDemon</td><td>767761876</td><td>0</td><td>0</td><td>0</td><td><b>Sith Eternal Emperor</b>: EP, Vader, RG, Piett, Krennic, Sidious, Darth Maul, Dooku, Sith Marauder, Imperial TIE Bomber, JKA, Thrawn, Tarkin, Veers, Starck</td></tr><tr class="complete" style="background-color: #ceebfd;"><td>ShinyDemon</td><td>767761876</td><td>0</td><td>0</td><td>0</td><td><b>Jedi Master Luke Skywalker</b>: Old Ben, JTR, C-3PO, Mon Mothma, Chewpio, JKL, R2-D2, Han, Chewbacca, Rebel Y-wing, Leia, HYoda, Wedge, Biggs, Lando</td></tr><tr class="complete" style="background-color: #ceebfd;"><td>AlexRG</td><td>425976577</td><td>0</td><td>0</td><td>0</td><td><b>Supreme Leader Kylo Ren</b>: KRU, Kylo, FOST, FOE, FOO, FOTP, Phasma, Hux, FOSFTP, Sith Trooper, Vet Han, EP, Finalizer</td></tr><tr class="working" style=""><td>AlexRG</td><td>425976577</td><td>10</td><td>0</td><td>10</td><td><b>Sith Eternal Emperor</b>: EP, Vader, RG, Piett, Krennic, <b>Sidious R5</b>, Darth Maul, Dooku, <b>Sith Marauder G12</b>, Imperial TIE Bomber, JKA, Thrawn, Tarkin, Veers, Starck</td></tr><tr class="complete" style="background-color: #ceebfd;"><td>Leagumes</td><td>329614327</td><td>0</td><td>0</td><td>0</td><td><b>Sith Eternal Emperor</b>: EP, Vader, RG, Piett, Krennic, Sidious, Darth Maul, Dooku, Sith Marauder, <b>Imperial TIE Bomber 6&#9733;</b>, JKA, Thrawn, Tarkin, Veers, Starck</td></tr></table><script>var config = {
+    "paging":   false,
+    "info":     false,
+    bFilter: false,
+    fixedHeader: true,
+    dom: 'Bfrtip',
+    buttons: [
+        'copyHtml5',
+        'excelHtml5',
+        'csvHtml5',
+    ],
+}
+
+table = $('#stats').DataTable(config);</script><br/>
+<font size="-2">Generated 2023-01-27 22:07:43 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
